@@ -1,0 +1,44 @@
+# work-os .gitignore
+
+# Ignore all actual work content (keep work private)
+Active/
+Projects/
+Career/
+Knowledge/
+Archive/
+Deliverables/
+Clients/
+
+# But keep the directory structure
+!Active/.gitkeep
+!Projects/.gitkeep
+!Career/.gitkeep
+!Knowledge/.gitkeep
+!Archive/.gitkeep
+
+# Ignore personal goals and backlog
+GOALS.md
+BACKLOG.md
+
+# But keep templates
+!GOALS-template.md
+!BACKLOG-template.md
+
+# Ignore customized AGENTS.md (after setup)
+# Uncomment this after you've customized it:
+# AGENTS.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
