@@ -175,6 +175,71 @@ Next:
 You're on track for the March deadline. Focus this week: finish methodology.
 ```
 
+### Your Academic Voice
+
+AI learns your writing style and drafts in YOUR voice.
+
+**Example conversation:**
+```
+You: "Here are three papers I've published — learn my academic writing style"
+
+AI: Analyzed your academic voice:
+
+Your style markers:
+- You favor active voice over passive (unusual in your field)
+- Concise methodology sections with numbered steps
+- You use "we" even in single-author papers
+- Hedging language: "suggests" over "proves", "may indicate"
+- Strong topic sentences that preview the paragraph
+- You cite extensively in literature review, sparingly elsewhere
+
+Structure patterns:
+- Short paragraphs (4-6 sentences)
+- Frequent use of transitional phrases
+- Results presented with confidence, discussion with appropriate caveats
+
+I'll match this style when drafting sections. Want me to draft your methodology?
+```
+
+**Drafting in your voice:**
+```
+You: "Draft the opening paragraph for my methodology section"
+
+AI: Here's a draft in your academic voice:
+
+"We employed a mixed-methods approach to examine the relationship
+between X and Y. The study proceeded in three phases. First, we
+collected quantitative data through... Second, we conducted
+semi-structured interviews with... Third, we triangulated findings
+using..."
+
+Matches your style:
+- Active voice with "we" ✓
+- Numbered/sequential structure ✓
+- Concise, direct sentences ✓
+
+Want me to continue with the next section?
+```
+
+**Grant writing:**
+```
+You: "Help me draft the significance section for my NSF grant"
+
+AI: I'll match the slightly different tone you use for grants
+(more assertive than papers). Here's a draft:
+
+"This research will transform our understanding of [X] by...
+The proposed work addresses a critical gap in the field...
+Results will directly inform policy decisions regarding..."
+
+Your grant voice tends to be:
+- More assertive ("will" vs "may")
+- Emphasizes broader impacts
+- Uses action verbs
+
+Should I adjust the confidence level?
+```
+
 ### Teaching & Course Management
 
 Stay on top of course preparation and grading.

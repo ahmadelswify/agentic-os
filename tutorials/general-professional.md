@@ -291,6 +291,84 @@ Important:
 - Schedule next month's exec calendar
 ```
 
+---
+
+## Your Communication Style
+
+AI learns how YOU write and drafts everything in YOUR voice.
+
+**Why this matters:**
+Every professional writes differently — emails, reports, proposals, updates. AI learns your specific style and maintains consistency across everything it helps you create.
+
+**Example conversation:**
+```
+You: "Here are some emails and reports I've written — learn my style"
+
+AI: Analyzed your communication style:
+
+Your email patterns:
+- You get to the point fast (no "I hope this finds you well")
+- Short paragraphs, lots of white space
+- You use bullet points for clarity
+- Direct asks at the end ("Can you confirm by Friday?")
+- Sign off with just your name, no "Best regards"
+
+Your report style:
+- Executive summary first
+- Data before opinions
+- Clear recommendations section
+- You bold key metrics
+
+Your tone:
+- Professional but not stiff
+- Confident without being pushy
+- You use "we" for team work, "I" for personal accountability
+
+I'll match this style for all written communications.
+```
+
+**Using your voice:**
+```
+You: "Draft an email to my manager about the project delay"
+
+AI: Here's a draft in your style:
+
+Subject: Q1 Project Update — 2-Week Delay
+
+Hey [Manager],
+
+Quick update on the Q1 project:
+
+We're looking at a 2-week delay. Here's why:
+- Vendor deliverables came in late (Jan 5 instead of Dec 20)
+- Found a data quality issue that needs fixing before launch
+
+New timeline:
+- Testing complete: Jan 25
+- Launch: Feb 1
+
+I've already talked to the vendor about penalties. Happy to walk
+through the details in our 1:1 Thursday.
+
+[Your name]
+
+Matches your style:
+- Direct subject line ✓
+- No fluff intro ✓
+- Bullet points ✓
+- Clear ask/next steps ✓
+```
+
+**Refining over time:**
+```
+You: "Actually I wouldn't say 'Hey' to my manager — too casual"
+
+AI: Got it — noted that you use "Hi [Name]" for managers,
+save "Hey" for peers. I'll adjust for audience going forward.
+```
+
+---
+
 ## Universal Tips
 
 1. **Match structure to your reality** - Don't force yourself into someone else's system

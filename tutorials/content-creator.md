@@ -373,6 +373,65 @@ All follow your winning pattern:
 Which one excites you most?
 ```
 
+### Your Content Voice
+
+AI learns your unique style and writes in YOUR voice.
+
+**Example conversation:**
+```
+You: "Here are my last 5 video scripts — learn my style from these"
+
+AI: Analyzed your content voice:
+
+Your style markers:
+- You open with personal stories, not questions
+- Short punchy sentences (avg 8 words)
+- You say "here's the thing" as a transition
+- Casual tone, occasional humor
+- You address viewers directly ("you" not "viewers")
+- You end with specific action items, not vague CTAs
+
+Vocabulary you use:
+- "game-changer" (frequent)
+- "honestly" (authenticity marker)
+- "let me show you" (demonstration phrases)
+
+I'll match this voice when drafting scripts. Want me to write a sample intro?
+```
+
+**Using your voice:**
+```
+You: "Draft an intro for my productivity tips video"
+
+AI: Here's an intro in your voice:
+
+"So I was sitting at my desk last Tuesday, staring at a to-do list
+that honestly made me want to cry. Fifteen items. Fifteen. And here's
+the thing — I'd written that same list three days in a row.
+
+Sound familiar? Let me show you the five things that actually fixed this..."
+
+This matches your style:
+- Personal story opener ✓
+- "Here's the thing" transition ✓
+- Direct address ✓
+- Specific details (Tuesday, fifteen items) ✓
+
+Want me to adjust anything?
+```
+
+**Refining your voice:**
+```
+You: "That's close but I wouldn't say 'made me want to cry' — too dramatic"
+
+AI: Got it — noted that you keep emotions understated. Updated:
+
+"So I was sitting at my desk last Tuesday, staring at a to-do list
+that was honestly ridiculous. Fifteen items. Fifteen..."
+
+I'll avoid dramatic emotional phrases in future drafts.
+```
+
 ### Brand Partnerships
 
 Track sponsorship opportunities and deals.

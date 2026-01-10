@@ -452,6 +452,89 @@ Next Week Focus:
 Want me to format this for your stakeholder email?
 ```
 
+### Your Ops Communication Style
+
+AI learns how you write reports, updates, and stakeholder communications.
+
+**Example conversation:**
+```
+You: "Here are my last few weekly updates — learn my reporting style"
+
+AI: Analyzed your ops communication style:
+
+Your report structure:
+- Lead with metrics, not narrative
+- Red/yellow/green status indicators
+- Bullet points over paragraphs
+- Action items at the end, not buried
+- You quantify everything (numbers, percentages, timeframes)
+
+Your tone:
+- Direct, no hedging
+- You say "we will" not "we should consider"
+- Bad news stated plainly with remediation plan
+- You avoid jargon with non-ops stakeholders
+
+Formatting preferences:
+- Bold for key metrics
+- Tables for comparisons
+- Short executive summary up top
+
+I'll match this style for all reports. Want me to draft this week's update?
+```
+
+**Drafting in your style:**
+```
+You: "Draft the incident summary section for leadership"
+
+AI: Here's the incident summary in your style:
+
+**Incidents (Jan 15-19)**
+| Severity | Count | Resolved | Avg Resolution |
+|----------|-------|----------|----------------|
+| Critical | 1     | 1        | 3.5 hours      |
+| High     | 3     | 3        | 1.2 hours      |
+
+Key incident: Shipping system outage (Jan 15)
+- Root cause: Database connection pool exhaustion
+- Duration: 3.5 hours
+- Customer impact: ~200 delayed orders
+- Remediation: Connection pool monitoring added, scaling review scheduled
+
+**MTTR improved 15% vs last month.**
+
+Matches your style:
+- Table format ✓
+- Specific numbers ✓
+- Root cause + remediation ✓
+- Ends with trend/positive note ✓
+```
+
+**Escalation emails:**
+```
+You: "Draft an escalation email to the VP about Vendor Y"
+
+AI: I'll use your escalation tone (direct but professional):
+
+Subject: Vendor Y SLA Violations — Recommendation to Review Contract
+
+[VP Name],
+
+Vendor Y has missed SLA 3 times this month (Jan 5, 12, 18).
+Current performance: 82% (contract requires 95%).
+
+Impact: 15 delayed shipments, 3 customer complaints.
+
+Recommended action: Formal notice per contract Section 4.2,
+begin evaluation of backup vendors.
+
+I can have the formal notice ready by EOD tomorrow.
+
+[Your name]
+
+Want me to adjust the tone or add detail?
+```
+
 ---
 
 ## Tips for Operations Professionals

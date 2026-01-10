@@ -157,6 +157,74 @@ Adapt these examples to what the user actually tells you about their work.
 
 ---
 
+## Tone & Voice Matching (Core Feature)
+
+**Learn and match the user's unique communication style across all outputs.**
+
+This is critical for professionals who need consistency in their writing — content creators, executives, researchers, marketers, and anyone who writes.
+
+### How It Works
+
+1. **Analyze their existing content** — When user shares previous work (scripts, emails, posts, papers), study:
+   - Sentence structure and length
+   - Vocabulary and terminology
+   - Formality level
+   - Humor and personality markers
+   - Opening/closing patterns
+   - Transition phrases they favor
+
+2. **Learn from corrections** — When user edits AI suggestions:
+   - Note what they changed
+   - Identify patterns in their edits
+   - Adjust future outputs accordingly
+
+3. **Apply consistently** — Use their voice when generating:
+   - Content drafts and scripts
+   - Email responses
+   - Status updates
+   - Any written output
+
+### Example Learning
+
+**User's previous content shows:**
+- Short, punchy sentences
+- Starts with hooks/questions
+- Uses "you" frequently (direct address)
+- Casual but professional tone
+- Avoids jargon, explains concepts simply
+
+**AI adapts:**
+- Generates drafts matching that style
+- Suggests hooks that fit their pattern
+- Mirrors their sentence rhythm
+- Uses vocabulary consistent with their voice
+
+### Role-Specific Voice Matching
+
+| Role | Voice Elements to Learn |
+|------|------------------------|
+| Content Creator | Hook style, storytelling approach, catchphrases, humor level |
+| Professor | Academic tone, citation style, explanation depth, formality |
+| Marketing | Brand voice, CTA style, headline patterns, persuasion approach |
+| Operations | Report structure, metric presentation, executive summary style |
+| Customer Success | Email tone, escalation language, relationship warmth |
+
+### User Commands
+
+- "Match my tone when writing [X]"
+- "Here's an example of how I write — use this style"
+- "That's not how I'd say it" (triggers recalibration)
+- "Show me what you've learned about my writing style"
+
+### Proactive Voice Learning
+
+When user shares content they've created:
+1. Ask: "Want me to learn your writing style from this?"
+2. If yes, analyze and confirm key patterns you noticed
+3. Apply to future content generation
+
+---
+
 ## Invisible Learning (AI Internal)
 
 Learn from user behavior over time. Apply learnings silently to improve suggestions.

@@ -370,6 +370,111 @@ Focus priorities:
 3. [P1] Complete remaining QBRs
 ```
 
+---
+
+## Your Customer Communication Style
+
+AI learns your email tone and drafts customer messages in YOUR voice.
+
+**Example conversation:**
+```
+You: "Here are a few customer emails I've sent — learn my communication style"
+
+AI: Analyzed your customer communication style:
+
+Your tone:
+- Warm but professional
+- You use customer's first name
+- You acknowledge their situation before solutions
+- Positive framing ("here's what we can do" not "we can't")
+- You end with specific next steps and timeline
+
+Your patterns:
+- Short paragraphs (2-3 sentences max)
+- You use "happy to" and "looking forward to"
+- You avoid jargon, explain technical terms
+- Personal sign-off ("Best, [Name]" not "Regards")
+
+Relationship markers:
+- You reference past conversations
+- You remember personal details (mentioned kid's soccer game, etc.)
+- You celebrate their wins
+
+I'll match this style for all customer communications.
+```
+
+**Drafting in your voice:**
+```
+You: "Draft a renewal kickoff email for Customer X"
+
+AI: Here's a draft in your customer voice:
+
+Subject: Kicking Off Your Renewal Conversation
+
+Hi Sarah,
+
+Hope the Q4 push went well — I remember you mentioning the
+big product launch in December!
+
+I wanted to reach out early about your renewal coming up in March.
+I'd love to schedule some time to review how things have been going
+and discuss plans for next year.
+
+A few things I'd like to cover:
+- Your team's success metrics this year
+- Any feedback or areas we can improve
+- Your goals for next year and how we can support them
+
+Would next Tuesday or Wednesday work for a 30-minute call?
+
+Looking forward to catching up!
+
+Best,
+[Your name]
+
+Matches your style:
+- Personal reference (Q4 launch) ✓
+- Warm, first-name basis ✓
+- Clear agenda ✓
+- Specific time options ✓
+```
+
+**Handling difficult situations:**
+```
+You: "Draft an email addressing Customer Y's concerns about the outage"
+
+AI: Using your "empathetic but confident" tone for escalations:
+
+Hi Michael,
+
+I completely understand your frustration with last week's outage.
+You're right to expect better from us, and I want to personally
+address what happened.
+
+Here's what we know:
+- The outage lasted 4 hours on Thursday
+- It was caused by [X] and has been fully resolved
+- We've implemented [Y] to prevent this from happening again
+
+I'd like to schedule a call this week to walk through our remediation
+plan and answer any questions from your team.
+
+Your partnership means a lot to us, and I'm committed to making this right.
+
+Would Thursday afternoon work for you?
+
+Best,
+[Your name]
+
+Matches your escalation style:
+- Acknowledge feelings first ✓
+- Take ownership ✓
+- Provide specifics ✓
+- Offer path forward ✓
+```
+
+---
+
 ## Tips for CS Professionals
 
 1. **Brain dump after every customer interaction** - capture context while fresh

@@ -422,6 +422,102 @@ Focus priorities:
 3. [P1] Finish 2 blog posts
 ```
 
+---
+
+## Your Brand Voice & Writing Style
+
+AI learns your brand voice and writes all content in YOUR style.
+
+**Example conversation:**
+```
+You: "Here are our brand guidelines and 5 recent blog posts — learn our voice"
+
+AI: Analyzed your brand and writing style:
+
+Brand voice:
+- Confident but not arrogant
+- Uses "you" and "your" (customer-centric)
+- Avoids corporate jargon
+- Short sentences, punchy copy
+- Data-driven claims with specific numbers
+
+Your writing patterns:
+- Headlines: Question or number format ("5 Ways to...", "Why Your...")
+- Intros: Start with pain point, not features
+- CTAs: Action-oriented, specific ("Get the guide" not "Learn more")
+- Tone: Professional but approachable, occasional humor
+
+Vocabulary:
+- Use: "streamline", "boost", "unlock"
+- Avoid: "synergy", "leverage", "paradigm"
+- You always say "customers" not "users"
+
+I'll match this voice for all content. Want me to draft something?
+```
+
+**Writing in brand voice:**
+```
+You: "Draft a blog post intro about our new analytics feature"
+
+AI: Here's an intro in your brand voice:
+
+"Your marketing data is scattered across 12 different dashboards.
+Sound familiar?
+
+You spend hours pulling reports. Copying into spreadsheets.
+Building the same charts every week. Meanwhile, your competitors
+are making decisions in real-time.
+
+Here's the thing: you don't have a data problem. You have a
+visibility problem. And we just solved it.
+
+[Product name]'s new analytics dashboard puts every metric you
+care about in one place — updated live, no manual work required."
+
+Matches your brand voice:
+- Pain point opener ✓
+- "You" language ✓
+- Specific problem (12 dashboards) ✓
+- Confident solution positioning ✓
+```
+
+**Multi-channel consistency:**
+```
+You: "Now create social posts for this same feature"
+
+AI: Here's the same message adapted for each channel:
+
+**LinkedIn (professional):**
+"Marketers spend 5+ hours weekly just pulling reports.
+We built something to fix that.
+
+Our new analytics dashboard:
+→ All your metrics in one place
+→ Real-time updates
+→ Zero manual work
+
+[Link]"
+
+**Twitter/X (punchy):**
+"12 dashboards. 5 hours of reporting. Every week.
+
+Not anymore.
+
+[Product] analytics is live. One dashboard. Real-time.
+Zero spreadsheets.
+
+[Link]"
+
+**Email subject lines (3 options):**
+1. "Stop pulling reports manually"
+2. "Your marketing data, finally in one place"
+3. "We fixed your dashboard problem"
+
+All match your brand voice with channel-appropriate tone.
+```
+
+---
+
 ## Tips for Marketing Professionals
 
 1. **Brain dump ideas constantly** - capture inspiration when it strikes
