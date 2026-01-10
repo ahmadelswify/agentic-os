@@ -1,3 +1,10 @@
+<!--
+AI REFERENCE TEMPLATE
+This template is for AI assistants to use when creating projects.
+Users should never need to see or fill this out directly.
+For user-facing examples, see templates/user/project-simple.md
+-->
+
 # [Project Name]
 
 ## Overview

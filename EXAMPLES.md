@@ -27,11 +27,11 @@ You: "What should I work on today?"
 
 AI: "Your priorities for today:
 
-🔴 P0 (Urgent):
+🔴 Urgent:
 - Prepare for Customer X renewal meeting (tomorrow 10am)
 - Follow up on support escalation for Customer Y
 
-🟡 P1 (Important):
+🟡 Important:
 - Review Q1 metrics for leadership update
 - Schedule advisory board invitations (due Friday)
 
@@ -60,9 +60,9 @@ You: "Process my backlog"
 AI: "I've organized your 8 backlog items:
 
 Created tasks:
-- [P1] Follow up Customer Z expansion opportunity (high value) → Active/accounts/
-- [P1] Coordinate with Customer X for tech case study → Active/projects/
-- [P3] Explore webinar series concept → Active/ideas/
+- Follow up Customer Z expansion opportunity (important — high value) → Active/accounts/
+- Coordinate with Customer X for tech case study (important) → Active/projects/
+- Explore webinar series concept (idea for later) → Active/ideas/
 
 Added to accomplishments:
 - Customer Z expansion opportunity identified (significant potential)
@@ -94,9 +94,9 @@ Structure:
 - Projects/customer-advisory-board/tasks/
 
 Initial tasks:
-- [P1] Identify 10 strategic customers (due: Jan 15)
-- [P1] Draft invitation materials (due: Jan 20)
-- [P1] Schedule first meeting (target: Jan 31)
+- Identify 10 strategic customers (important — due Jan 15)
+- Draft invitation materials (important — due Jan 20)
+- Schedule first meeting (important — target Jan 31)
 
 Want to add more detail to the plan?"
 ```
@@ -218,10 +218,10 @@ AI: "Let's set up your Q2 demand gen campaign:
 Created: Projects/q2-demand-gen/
 
 Initial tasks:
-- [P1] Write creative brief (due: March 15)
-- [P1] Define LinkedIn targeting (due: March 20)
-- [P1] Plan webinar topics and speakers (due: March 20)
-- [P1] Develop lead magnet content (due: March 25)
+- Write creative brief (important — due March 15)
+- Define LinkedIn targeting (important — due March 20)
+- Plan webinar topics and speakers (important — due March 20)
+- Develop lead magnet content (important — due March 25)
 
 Campaign structure:
 - Projects/q2-demand-gen/briefs/
@@ -335,24 +335,24 @@ You: "I feel overwhelmed, help me prioritize"
 AI: "Let's get you focused. Looking at your tasks:
 
 You have:
-- 8 P0 tasks (this is too many!)
-- 12 P1 tasks
-- 20 P2 tasks
+- 8 items marked as urgent (this is too many!)
+- 12 important items
+- 20 scheduled items
 
 Let's be honest about priorities:
 
-TRUE P0 (must do this week):
+TRULY URGENT (must do this week):
 - Customer X renewal meeting (tomorrow) ✅ legit urgent
 - Support escalation for Customer Y ✅ blocking customer
 
-PROBABLY P1 (not truly urgent):
-- Draft blog post → P1 (has a due date but not this week)
-- Update metrics dashboard → P2 (nice to have)
+PROBABLY JUST IMPORTANT (not truly urgent):
+- Draft blog post → has a due date but not this week
+- Update metrics dashboard → nice to have, not urgent
 - 4 other items → Let's review
 
-Can you identify which of your 'P0s' are truly blocking or have hard deadlines THIS WEEK?
+Can you identify which items are truly blocking or have hard deadlines THIS WEEK?
 
-Once we right-size your P0 list (goal: 2-3 items), you'll feel more in control."
+Once we right-size your urgent list (goal: 2-3 items), you'll feel more in control."
 ```
 
 ### Finding Time for Career Development
@@ -366,7 +366,7 @@ Strategy:
 - Start small: 30 min/day, specific projects
 
 Practical approach:
-1. Create task: [P2] Complete SQL basics (30 min/day)
+1. Create task: Complete SQL basics (30 min/day) — scheduled
 2. Link to real work: Use it to build your dashboard
 3. Track in Career/professional-development/
 

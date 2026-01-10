@@ -143,7 +143,7 @@ Now the magic happens. Tell your AI:
 1. **Read your backlog** and understand each item
 2. **Check your goals** to see how items align
 3. **Create organized tasks** with:
-   - Clear priorities (P0, P1, P2, P3)
+   - Clear priorities (urgent, important, scheduled, ideas)
    - Appropriate categories
    - Next actions
    - Due dates (if applicable)
@@ -154,17 +154,17 @@ Now the magic happens. Tell your AI:
 ```
 AI: I've processed your backlog and created 10 tasks:
 
-High Priority (P0/P1):
+Urgent (this week):
 - Prepare for Customer X meeting (tomorrow) → Active/meetings/
 - Follow up on Q1 budget approval (this week) → Active/admin/
 - Send stakeholder project update (overdue) → Active/projects/
 
-Medium Priority (P2):
+Important (this month):
 - Review feature specs from Product → Active/projects/
 - Schedule 1:1s for next month → Active/admin/
 - Research customer health scoring tools → Active/projects/
 
-Lower Priority (P3):
+Ideas for later:
 - Draft blog post → Active/content/
 - Plan Q2 goals (not urgent yet) → Career/
 
@@ -187,14 +187,14 @@ Now ask your AI:
 ```
 AI: Your top priorities for today:
 
-🔴 Must Do (P0):
+🔴 Urgent:
 1. Prepare for Customer X meeting (tomorrow 10am)
    Next action: Review their account metrics and usage trends
 
 2. Send stakeholder project update (overdue)
    Next action: Compile progress notes into brief update email
 
-🟡 Should Do (P1):
+🟡 Important:
 3. Follow up on Q1 budget approval
    Next action: Email finance team for status
 
@@ -267,12 +267,12 @@ Explore use cases:
 **Q: My AI isn't organizing tasks well**
 - Make sure it has access to your `GOALS.md` and `AGENTS.md`
 - Be more specific in your brain dumps
-- Give feedback: "This task should be P1, not P2"
+- Give feedback: "This task should be important, not just scheduled"
 
-**Q: I have too many P0 tasks**
-- You probably don't - ask AI to re-prioritize
-- True P0 = urgent AND important THIS WEEK
-- Move some to P1 (important but not urgent)
+**Q: I have too many urgent tasks**
+- You probably don't — ask AI to re-prioritize
+- True urgent = hard deadline THIS WEEK or blocking someone
+- Move some to "important" (matters but not this week)
 
 **Q: My backlog is overwhelming**
 - Process in batches: "Process the top 5 items in my backlog"

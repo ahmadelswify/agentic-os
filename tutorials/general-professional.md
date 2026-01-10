@@ -87,11 +87,11 @@ You: "What should I work on today?"
 
 AI: Based on your tasks and goals:
 
-🔴 Urgent (P0):
+🔴 Urgent:
 - [Deadline today or blocking others]
 
-🟡 Important (P1):
-- [Committed work for this week/sprint]
+🟡 Important:
+- [Committed work for this week/month]
 
 ⚡ Quick wins:
 - [Small tasks that create value]
@@ -213,13 +213,13 @@ Add your role-specific context to `AGENTS.md`:
 - **[category-2]**: [description of this work]
 - **[category-3]**: [description of this work]
 
-## Priority Framework for [Your Role]
+## What Counts as Urgent for [Your Role]
 
-**P0 (Critical):**
-- [What qualifies as P0 in your role]
+- [What qualifies as urgent in your role — hard deadlines, blocking others]
 
-**P1 (Important):**
-- [What qualifies as P1 in your role]
+## What Counts as Important for [Your Role]
+
+- [What qualifies as important — committed work, key projects]
 ```
 
 ### Step 4: Start Using It
@@ -233,7 +233,7 @@ Brain dump → Process → Work → Repeat
 You: "Add to backlog: Q1 budget variance analysis needed for leadership review"
 
 AI: Created task:
-- Priority: P1 (leadership visibility)
+- Marked as important (leadership visibility)
 - Category: reporting
 - Due: End of week (typical review cycle)
 - Next action: Pull Q1 actuals vs budget from system
@@ -241,9 +241,13 @@ AI: Created task:
 You: "What should I focus on today?"
 
 AI: Your finance priorities:
-- [P0] Finalize Q1 variance analysis (leadership review tomorrow)
-- [P1] Review vendor invoices for approval
-- [P1] Update financial forecast model
+
+Urgent:
+- Finalize Q1 variance analysis (leadership review tomorrow)
+
+Important:
+- Review vendor invoices for approval
+- Update financial forecast model
 ```
 
 ### HR Professional
@@ -253,10 +257,10 @@ You: "Add to backlog: Need to coordinate performance review cycle, Q1 reviews du
 AI: Created project: Q1 Performance Review Cycle
 
 Tasks:
-- [P0] Send performance review reminders to managers (due: this week)
-- [P1] Prepare review templates and resources
-- [P1] Schedule calibration meetings
-- [P1] Track completion rates
+- Send performance review reminders to managers (urgent — due this week)
+- Prepare review templates and resources (important)
+- Schedule calibration meetings (important)
+- Track completion rates (important)
 
 You: "Show project status"
 
@@ -271,7 +275,7 @@ AI: Q1 Performance Review Cycle:
 You: "Add to backlog: Feature X feedback from 3 customers, they want Y capability"
 
 AI: Created task:
-- Priority: P2 (customer feedback for roadmap)
+- On your radar (customer feedback for roadmap)
 - Category: product-strategy
 - Next action: Document feedback, discuss with eng team
 - Links to: Projects/q2-roadmap-planning/
@@ -290,7 +294,7 @@ AI: Q2 Roadmap Planning:
 You: "Add to backlog: CEO needs brief for board meeting on strategic initiatives, Friday"
 
 AI: Created task:
-- Priority: P0 (CEO + board + this week)
+- Urgent (CEO + board + this week)
 - Category: executive-support
 - Due: Thursday (day before meeting)
 - Next action: Gather status updates from project leads
@@ -298,9 +302,13 @@ AI: Created task:
 You: "What prep is needed for this week's meetings?"
 
 AI: Meeting prep priorities:
-- [P0] Board meeting brief for CEO (Fri)
-- [P1] Quarterly review prep for leadership team (Wed)
-- [P1] Schedule next month's exec calendar
+
+Urgent:
+- Board meeting brief for CEO (Friday)
+
+Important:
+- Quarterly review prep for leadership team (Wednesday)
+- Schedule next month's exec calendar
 ```
 
 ## Universal Tips
@@ -318,7 +326,7 @@ AI: Meeting prep priorities:
 ```
 "What should I work on today?"
 "What are my priorities this week?"
-"Show me my P0 tasks"
+"What needs attention this week?"
 ```
 
 **Processing work:**

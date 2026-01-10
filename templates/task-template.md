@@ -1,3 +1,10 @@
+<!--
+AI REFERENCE TEMPLATE
+This template is for AI assistants to use when creating tasks.
+Users should never need to see or fill this out directly.
+For user-facing examples, see templates/user/task-simple.md
+-->
+
 ---
 title: [Clear, actionable task name]
 category: [your-work-category]

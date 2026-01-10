@@ -1,173 +1,181 @@
-# Interactive work-os Setup
+# Setting Up work-os
 
-> This guide helps your AI assistant set up work-os specifically for YOUR role and needs.
+> This guide helps you (or your AI assistant) set up work-os for YOUR specific role and needs.
 
-## For Users: Getting Started
+## Choose Your Setup Path
 
-Simply say to your AI assistant:
+### Path A: Simple Setup (No Git Required)
 
+Don't know Git? Use folders instead of version control.
+
+**Step 1: Download**
+- Click "Code" → "Download ZIP" on GitHub
+- Extract to any folder (Documents/work-os works great)
+
+**Step 2: Open with AI**
+- Open the folder with Claude, ChatGPT, or your AI assistant
+- Say: `"Help me set up work-os"`
+
+**Step 3: Start Working**
+- AI asks about your role and creates your structure
+- Start brain dumping into BACKLOG.md
+- You're ready!
+
+---
+
+### Path B: Advanced Setup (With Git)
+
+Benefits: Version history, backup to GitHub, sync across devices.
+
+**Step 1: Clone**
+```bash
+git clone https://github.com/yourusername/work-os.git
+cd work-os
 ```
-"Help me set up work-os"
-```
 
-Your AI will ask you questions and configure everything automatically!
+**Step 2: Open with AI**
+- Open with Claude Code (recommended) or your AI assistant
+- Say: `"Help me set up work-os"`
+
+**Step 3: Start Working**
+- AI configures everything for you
+- Commit your initial setup: `git add . && git commit -m "Initial work-os setup"`
 
 ---
 
 ## For AI Assistants: Setup Protocol
 
-When a user asks to set up work-os, follow this conversational flow:
+When a user says "help me set up work-os", follow this conversational flow.
 
 ### Step 1: Understand Their Role
 
-Ask:
+Ask conversationally (not as a form):
+
 ```
-"I'll help you set up work-os for your specific needs. Let's start with a few questions:
+"I'll help you set up work-os for your specific needs. A few questions:
 
-1. What's your professional role? (e.g., Customer Success Manager, Marketing Manager, Product Manager, Sales, etc.)
+1. What's your role? (e.g., content creator, professor, operations manager,
+   marketing, customer success, product manager, freelancer, etc.)
 
-2. What are your main work responsibilities? (e.g., managing accounts, running campaigns, building product roadmaps)"
-```
-
-### Step 2: Understand Their Goals
-
-Based on their role, ask relevant questions:
-
-**For Customer Success:**
-```
-"Great! For Customer Success, I'd like to know:
-- How many accounts do you manage?
-- What are your key metrics? (NRR, churn, etc.)
-- Do you handle renewals?
-- Any major initiatives this quarter? (advisory boards, customer programs, etc.)"
+2. What types of work fill your day?"
 ```
 
-**For Marketing:**
-```
-"Perfect! For Marketing, tell me:
-- What type of marketing do you focus on? (demand gen, content, product marketing, etc.)
-- What are your main goals? (MQLs, brand awareness, launches, etc.)
-- Do you manage campaigns, content, or both?
-- Any major launches or campaigns coming up?"
-```
+### Step 2: Understand Their Work
 
-**For Product Management:**
-```
-"Excellent! For Product Management, I need to know:
-- What stage products do you manage? (early stage, growth, mature?)
-- What are your main responsibilities? (roadmap, specs, launches, etc.)
-- Do you work with engineering, design, marketing closely?
-- What are your key success metrics?"
-```
+Based on their role, ask follow-up questions:
 
-**For Sales:**
 ```
-"Got it! For Sales, let me know:
-- What do you sell? (size of deals, deal cycle length?)
-- What's your main focus? (new business, expansions, enterprise?)
-- What's your quota/target?
-- How do you manage pipeline?"
+"Thanks! To customize this for you:
+
+1. What makes something urgent in your work?
+   (What can't wait? What has hard deadlines?)
+
+2. What do you want to spend less time organizing?
+   (Forgetting follow-ups? Losing track of projects? Not knowing what's priority?)
+
+3. What are your main goals right now?
+   (Could be quarterly targets, projects, career goals, etc.)"
 ```
 
-**For General/Other Roles:**
+Adapt questions to their role:
+- **Content creators:** Ask about content types, publishing schedule, feedback sources
+- **Professors:** Ask about courses, research projects, advising responsibilities
+- **Operations:** Ask about processes, vendors, incidents they manage
+- **Customer Success:** Ask about accounts, renewals, customer health tracking
+- **Marketing:** Ask about campaigns, content, launches
+- **Freelancers:** Ask about clients, project types, business development
+
+### Step 3: Create Their Structure
+
+Based on their answers, create appropriate directories.
+
+**Example structures by role:**
+
+**Content Creator:**
 ```
-"Thanks! Since you have a unique role, help me understand:
-- What are the main types of work you do daily?
-- What are your key projects or initiatives?
-- Who are your main stakeholders?
-- What are you measured on?"
-```
-
-### Step 3: Understand Their Work Patterns
-
-Ask:
-```
-"A few more questions to personalize your setup:
-
-- Do you work on multiple projects simultaneously, or focus on one at a time?
-- Do you have a lot of meetings, or mostly deep work?
-- Do you track career development and accomplishments? (for performance reviews, promotions)
-- Any specific pain points with your current system? (forgetting tasks, overwhelmed, can't track progress, etc.)"
-```
-
-### Step 4: Create Custom Structure
-
-Based on their answers, create:
-
-#### A. Custom Active/ Directory Structure
-
-**For Customer Success:**
-```bash
-mkdir -p Active/accounts
-mkdir -p Active/renewals
-mkdir -p Active/projects
-mkdir -p Active/meetings
-mkdir -p Active/customer-health
-mkdir -p Active/admin
+Active/
+├── scripts/        # Content in development
+├── production/     # In filming/editing
+├── published/      # Live content tracking
+├── ideas/          # Future concepts
+└── partnerships/   # Brand collaborations
 ```
 
-**For Marketing:**
-```bash
-mkdir -p Active/campaigns
-mkdir -p Active/content
-mkdir -p Active/launches
-mkdir -p Active/creative
-mkdir -p Active/meetings
-mkdir -p Active/reporting
+**Professor:**
+```
+Active/
+├── research/       # Papers, analysis
+├── teaching/       # Course prep, grading
+├── students/       # Advising, mentoring
+├── service/        # Committees, reviews
+└── grants/         # Applications, reports
 ```
 
-**For Product:**
-```bash
-mkdir -p Active/roadmap
-mkdir -p Active/specs
-mkdir -p Active/launches
-mkdir -p Active/research
-mkdir -p Active/meetings
-mkdir -p Active/engineering-sync
+**Operations Manager:**
+```
+Active/
+├── processes/      # Improvements, documentation
+├── vendors/        # Contracts, performance
+├── incidents/      # Issues, resolution
+├── projects/       # Strategic initiatives
+└── reporting/      # Metrics, dashboards
 ```
 
-**For Sales:**
-```bash
-mkdir -p Active/deals
-mkdir -p Active/prospecting
-mkdir -p Active/meetings
-mkdir -p Active/proposals
-mkdir -p Active/pipeline-management
+**Customer Success:**
+```
+Active/
+├── accounts/       # Individual accounts
+├── renewals/       # Renewal prep
+├── projects/       # CS initiatives
+├── meetings/       # Customer calls
+└── health/         # Proactive monitoring
 ```
 
-**For Custom/Other:**
-Create directories based on their stated work types.
-
-#### B. Create Knowledge/ Structure (Optional but helpful)
-
-**For Customer Success:**
-```bash
-mkdir -p Knowledge/customers
-mkdir -p Knowledge/products
-mkdir -p Knowledge/processes
-mkdir -p Knowledge/stakeholders
+**Marketing:**
+```
+Active/
+├── campaigns/      # Active campaigns
+├── content/        # Content creation
+├── launches/       # Product launches
+├── reporting/      # Analytics, metrics
+└── creative/       # Design requests
 ```
 
-**For Marketing:**
-```bash
-mkdir -p Knowledge/brand-guidelines
-mkdir -p Knowledge/campaigns
-mkdir -p Knowledge/templates
-mkdir -p Knowledge/stakeholders
+**Freelancer:**
+```
+Active/
+├── clients/        # Client work
+├── projects/       # Active projects
+├── business-dev/   # Prospecting, proposals
+├── admin/          # Invoicing, contracts
+└── learning/       # Skill development
 ```
 
-**For Product:**
-```bash
-mkdir -p Knowledge/technical-docs
-mkdir -p Knowledge/user-research
-mkdir -p Knowledge/competitors
-mkdir -p Knowledge/stakeholders
+Create directories that match what the user actually told you about their work.
+
+### Step 4: Set Up GOALS.md
+
+Fill in GOALS.md based on what they told you:
+
+```markdown
+# Goals
+
+## This Quarter
+1. [Their stated primary goal]
+2. [Their stated secondary goal]
+3. [Career goal if mentioned]
+
+## Key Metrics
+- [Metrics they mentioned caring about]
+
+## Focus Areas
+- [Their main responsibilities]
+- [Projects they mentioned]
 ```
 
-**For any role:**
-Adjust based on what they need to reference regularly.
+### Step 5: Set Up Career/ (Always useful)
 
-#### C. Create Career/ Structure (Always useful)
+Create the career tracking structure:
 
 ```bash
 mkdir -p Career/1-on-1s
@@ -175,183 +183,152 @@ mkdir -p Career/portfolio
 mkdir -p Career/professional-development
 ```
 
-These are universal - every professional benefits from tracking 1:1s, building a portfolio, and professional development.
+Every professional benefits from tracking accomplishments and career development.
 
-#### D. Customize GOALS.md
+### Step 6: Initial Brain Dump
 
-Fill in GOALS.md with role-specific template based on their answers:
-
-```markdown
-# 2026 Q1 Goals
-
-## Professional Goals
-1. [Based on their stated goals]
-2. [Based on their initiatives]
-3. [Career goal if they mentioned it]
-
-## Key Results
-- [Specific metrics they mentioned]
-- [Projects or deliverables they mentioned]
-
-## Focus Areas
-- [Their main responsibilities]
-- [Their stated priorities]
-```
-
-#### E. Update AGENTS.md
-
-Customize the "Customization" section:
-
-```markdown
-## This user's specific work categories:
-
-Active/
-├── [category-1]/     # [what this work type is]
-├── [category-2]/     # [what this work type is]
-└── [category-3]/     # [what this work type is]
-
-## User's role-specific priorities:
-
-**P0 (Critical) for this role:**
-- [Based on their role and responsibilities]
-
-**P1 (Important) for this role:**
-- [Based on their role and responsibilities]
-
-## User's context:
-- Role: [their role]
-- Key metrics: [their metrics]
-- Main stakeholders: [if they mentioned]
-- Pain points to address: [what they said]
-```
-
-### Step 5: Create Initial BACKLOG.md Entry
-
-Help them start with a brain dump:
+Help them capture current work:
 
 ```
-"Great! I've set up your work-os structure. Let's get you started.
+"Great! Your work-os is set up. Let's get you started.
 
-Can you brain dump your current active work? Just list everything on your mind - tasks, projects, ideas, whatever you're juggling. Don't worry about organizing it, just capture it.
+Brain dump everything on your mind right now — tasks, projects, ideas,
+things you've been meaning to do. Don't organize it, just capture it.
 
-For example:
-- Active projects or initiatives
-- Upcoming deadlines or meetings
-- Things you've been meaning to do
-- Ideas you've been thinking about
-
-I'll process this into organized tasks once you're done."
+I'll process it into organized tasks."
 ```
 
-### Step 6: Process Their Initial Brain Dump
+### Step 7: Process Their Brain Dump
 
-When they provide their initial list:
+When they provide their list:
 
 1. Create tasks in appropriate Active/ directories
-2. Set priorities based on what they told you
-3. Link to their goals in GOALS.md
-4. Create any Projects/ folders for major initiatives
-5. Present organized summary
+2. Assess priority based on urgency and deadlines (store internally as P0-P3)
+3. Present to user in natural language (urgent, important, scheduled, idea)
+4. Link tasks to their goals
+5. Create Projects/ folders for major initiatives
+
+**Present the summary conversationally:**
 
 ```
-"Perfect! I've organized everything:
+"All organized! Here's what I created:
 
-High Priority (P0/P1):
-- [urgent items with due dates]
+Urgent (this week):
+- [urgent items with context]
 
-Projects:
-- [major initiatives] → Created project folder
+Important (this month):
+- [key priorities]
 
-Medium Priority (P2):
+On your radar:
 - [scheduled work]
 
-Ideas to revisit (P3):
-- [nice-to-have items]
+Ideas for later:
+- [someday items]
 
-Your work-os is ready! Here's how to use it daily:
+Your work-os is ready! Here's how to use it:
 
-🌅 Morning: Ask "What should I work on today?"
-📝 Throughout day: Brain dump into BACKLOG.md
-🌙 Evening: Say "Process my backlog"
-📊 Weekly: Ask "Weekly review"
+Morning: "What should I work on today?"
+During work: Brain dump into BACKLOG.md
+End of day: "Process my backlog"
+Weekly: "Weekly review"
 
-Want me to show you what to work on today?"
+Want me to show you what to focus on today?"
 ```
 
-### Step 7: Point Them to Resources
+### Step 8: Point to Resources
 
 ```
-"A few resources to help you:
+"A few resources that might help:
 
-📖 Role-specific guide: tutorials/[their-role].md
-📚 Use cases that might help:
-   - [relevant use case 1]
-   - [relevant use case 2]
-
-🎯 Your next steps:
-   1. Start brain dumping work into BACKLOG.md
-   2. Say "process my backlog" when ready
-   3. Ask "What should I work on?" to get started
+📖 Role guide: tutorials/[their-role].md
+📚 Use cases you might like:
+   - [relevant use case based on their role]
+   - [another relevant use case]
 
 Need help with anything specific?"
 ```
 
-## Example Complete Setup Flow
+---
+
+## Example Setup Conversation
 
 ### User: "Help me set up work-os"
 
-**AI:** "I'll help you set up work-os for your specific needs. Let's start with a few questions:
+**AI:** "I'll help you set up work-os for your needs. A few questions:
 
-1. What's your professional role?
-2. What are your main work responsibilities?"
+1. What's your role?
+2. What types of work fill your day?"
 
-### User: "I'm a Customer Success Manager. I manage 15 accounts, focus on renewals and NRR, and I'm launching a customer advisory board this quarter."
+### User: "I'm a content creator. I make YouTube videos and Instagram content. I'm also starting to work with brands."
 
-**AI:** "Great! For Customer Success, a few more questions:
-- What are your key metrics or goals? (e.g., NRR target, churn goal)
-- Do you track career development for performance reviews?
-- Any pain points with your current system?"
+**AI:** "Great! A few more questions to customize this:
 
-### User: "NRR goal is 110%, trying to keep churn under 5%. Yes, I need to track accomplishments for my promotion discussion. Main pain point is I forget to follow up on things and don't have good visibility into what's urgent."
+1. What makes something urgent for you? (Publishing deadline? Brand partnership deadline?)
+2. What do you want to spend less time organizing? (Tracking scripts? Managing feedback? Remembering what content performed well?)
+3. What are your main goals right now?"
 
-**AI:** "Perfect! Let me set up work-os for you..."
+### User: "Urgent is usually a publishing deadline or if a brand is waiting. I lose track of which scripts are where and forget feedback I got. Goals are to grow to 100K subscribers and land 3 brand deals this quarter."
 
-[Creates directories, customizes GOALS.md and AGENTS.md]
+**AI:** "Perfect! Let me set up work-os for content creation..."
 
-**AI:** "Done! I've created your Customer Success work-os:
+[Creates directories, GOALS.md]
+
+**AI:** "Done! Here's your setup:
 
 **Your structure:**
-- Active/accounts/ - Individual account work
-- Active/renewals/ - Renewal prep and tracking
-- Active/projects/ - Your advisory board and other initiatives
-- Active/meetings/ - Meeting prep and follow-ups
-- Active/customer-health/ - Proactive monitoring
-- Active/admin/ - Routine CS tasks
+- Active/scripts/ — Content in development
+- Active/production/ — In filming/editing
+- Active/published/ — Tracking live content
+- Active/ideas/ — Future content concepts
+- Active/partnerships/ — Brand collaborations
 
 **Your goals (in GOALS.md):**
-- Achieve 110% NRR
-- Keep churn under 5%
-- Launch customer advisory board
-- Get promoted (tracking accomplishments)
+- Grow to 100K subscribers
+- Land 3 brand deals
+- Improve content tracking (scripts, feedback)
 
-Now, let's get you started. Can you brain dump your current work? List everything you're juggling - accounts, renewals, the advisory board setup, meetings, ideas, whatever is on your mind."
+**Special for content creators:**
+- I'll track script versions as you iterate
+- I'll log feedback so you don't forget it
+- I can help you see what content performs best
+
+Now, brain dump everything on your mind — content ideas, scripts in progress, brand conversations, anything."
 
 ### User: [provides brain dump]
 
-**AI:** [Processes into organized tasks, creates advisory board project, prioritizes renewals]
+**AI:** [Processes into organized tasks]
 
-"All set! Here's your organized work... Want me to show you what to focus on today?"
+"All organized! Here's what I created:
+
+**Urgent:**
+- Finish morning routine script (publishing Thursday)
+- Reply to BrandX about partnership terms (they're waiting)
+
+**Important this month:**
+- Film productivity setup video
+- Reach out to 5 potential brand partners
+
+**Ideas for later:**
+- Behind-the-scenes content series
+- Collaboration with [other creator]
+
+Want me to show you what to focus on today?"
 
 ---
 
 ## Customization Notes for AI
 
-- **Be conversational:** This should feel like talking to a colleague, not filling out a form
-- **Ask follow-ups:** If their role is unclear, ask for examples of their work
-- **Suggest resources:** Point them to relevant tutorials and use cases
-- **Start small:** Don't overwhelm with every feature, focus on daily workflow first
-- **Iterate:** They can adjust structure later, get them working quickly
+- **Be conversational** — This should feel like talking to a colleague, not filling a form
+- **Use natural language** — Say "urgent" not "P0", say "important" not "P1"
+- **Never show YAML or technical syntax** — All structure is handled invisibly
+- **Ask follow-ups** — If their role is unclear, ask for examples
+- **Start small** — Don't overwhelm with features, focus on daily workflow
+- **Match their language** — Use the words they use to describe their work
 
 ---
 
-**The goal:** User says "help me set up work-os" and 5 minutes later they have a personalized system ready to use.
+## The Goal
+
+User says "help me set up work-os" → 5 minutes later → personalized system ready to use.
+
+No technical knowledge required. No forms to fill. Just a conversation.
