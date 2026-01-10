@@ -43,7 +43,7 @@ Active/
 ```
 
 ### 3. Add Your AGENTS.md
-Use the template from `templates/AGENTS.md` so your AI assistant knows how to help you.
+Use `AGENTS.md` (in the root directory) so your AI assistant knows how to help you.
 
 ## Daily Marketing Workflow
 
