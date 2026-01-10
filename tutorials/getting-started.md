@@ -241,10 +241,11 @@ You're now set up with an AI-native work management system.
 ## What's Next?
 
 Explore role-specific guides:
+- **[Content Creator](content-creator.md)** - Scripts, feedback, performance tracking
+- **[University Professor](university-professor.md)** - Research, teaching, advising
+- **[Operations Manager](operations-manager.md)** - Processes, vendors, incidents
 - **[Customer Success](customer-success.md)** - Account management, renewals, customer health
 - **[Marketing](marketing.md)** - Campaigns, content, launches
-- **[Product Management](product-management.md)** - Roadmaps, specs, stakeholder alignment
-- **[Engineering](engineering.md)** - Sprint planning, technical projects
 - **[General Professional](general-professional.md)** - Applicable to any role
 
 Explore use cases:

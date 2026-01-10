@@ -310,11 +310,6 @@ Recommendation: Focus on advisory board this week (deadline), dashboard can wait
 4. Check status: "What's the status of [project-name]?"
 5. Update stakeholders: "Create a project update for [stakeholder]"
 
-## Templates
-
-- [project-readme-template.md](project-readme-template.md) - Project overview
-- [project-status-update-template.md](project-status-update-template.md) - Stakeholder updates
-
 ---
 
 **Pro tip**: The best project management is the kind you don't have to think about. Let AI track the details while you focus on execution.

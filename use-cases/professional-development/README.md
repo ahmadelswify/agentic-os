@@ -283,11 +283,6 @@ Should I add this to your goals?
 4. Brain dump whenever you learn something new
 5. Review monthly: "What professional development did I do this month?"
 
-## Templates
-
-- [goals-template.md](goals-template.md) - Set development goals
-- [skills-tracker-template.md](skills-tracker-template.md) - Track skills
-
 ---
 
 **Pro tip**: Your professional development tracker becomes your resume, LinkedIn profile, and performance review prep all in one place!

@@ -213,10 +213,10 @@ Created SQL-based dashboard in BI tool (Tableau/Looker/Sigma) that:
 - VP quote: "This is the kind of proactive thinking that scales our team"
 
 ## Artifacts
-- [Dashboard link] (internal)
-- [Documentation](link)
-- [Training materials](link)
-- [All-hands presentation](link)
+- Dashboard (internal)
+- Documentation
+- Training materials
+- All-hands presentation
 
 ---
 
@@ -323,12 +323,6 @@ Want me to adjust the tone or focus?
 3. Ask AI to turn major projects into portfolio pieces
 4. Review quarterly: "Show me my accomplishments this quarter"
 5. Use for reviews, interviews, LinkedIn updates
-
-## Templates
-
-- [accomplishments-template.md](accomplishments-template.md) - Log wins
-- [portfolio-project-template.md](portfolio-project-template.md) - Detailed write-ups
-- [star-stories-template.md](star-stories-template.md) - Interview prep
 
 ---
 

@@ -483,6 +483,5 @@ You're on track for your 12 videos/month goal.
 
 ## Related Resources
 
-- [Content Creation Use Case](../use-cases/content-creation/) — Full workflow guide
 - [Project Tracking](../use-cases/project-tracking/) — For content series
 - [Career Portfolio](../use-cases/career-portfolio/) — For showcasing your work
