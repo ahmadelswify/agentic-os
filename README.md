@@ -6,15 +6,7 @@ A simple, powerful system for managing your work using AI. No apps, no forms, ju
 
 Most productivity tools force you into rigid structures: fill out forms, click through interfaces, manually organize tasks. **work-os flips this around** — you brain dump naturally, and AI structures everything for you.
 
-**Works for any professional:**
-- **Content Creators** — script management, feedback tracking, content performance
-- **Professors & Educators** — course planning, research tracking, student advising
-- **Operations Managers** — process improvement, vendor management, incident tracking
-- **Customer Success** — account management, renewals, customer health
-- **Marketing** — campaigns, content calendars, launch coordination
-- **Product Managers** — roadmaps, cross-functional coordination
-- **Freelancers & Entrepreneurs** — client work, business development
-- **Anyone** who wants AI to handle organization while they handle work
+**Works for any professional role** — content creators, professors, operations managers, marketers, freelancers, and anyone who wants AI to handle organization while they handle work.
 
 ## How It Works
 
@@ -227,26 +219,14 @@ AI: Nice! Marked as done.
 
 ## FAQ
 
-**Q: Do I need a specific AI assistant?**
-A: Works with Claude, ChatGPT, or any AI that can read files. Claude Code is recommended for the best experience.
-
-**Q: Is this overkill for my work?**
-A: No! Use only what you need. Just BACKLOG.md + AI is already valuable.
+**Q: Which AI assistant should I use?**
+A: Works with Claude, ChatGPT, or any AI that can read files. Claude Code recommended.
 
 **Q: How is this different from Notion/Asana/Jira?**
-A: Those require manual input and learning curves. work-os is conversational — brain dump, AI organizes.
-
-**Q: Can I customize the structure?**
-A: Absolutely! It's just markdown files. Reorganize however you want.
-
-**Q: Do I need to know Git?**
-A: No. Download the ZIP and use it with any folder. Git is optional for version history.
-
-**Q: What about personal tasks?**
-A: This is designed for professional work. For personal life, consider a separate system.
+A: Those require manual input. work-os is conversational — brain dump, AI organizes.
 
 **Q: Will my data stay private?**
-A: Yes. It's just files on your computer. Nothing is uploaded unless you choose to back up to GitHub.
+A: Yes. Just files on your computer. Nothing uploaded unless you back up to GitHub.
 
 ---
 
@@ -262,6 +242,6 @@ MIT — Use it however you want
 
 ---
 
-**Created by Ahmad Al Swify** • [LinkedIn](https://linkedin.com/in/ahmadelswify)
+**Created by Ahmad Elswify** • [LinkedIn](https://www.linkedin.com/in/swify/)
 
 Built to help professionals work smarter, not harder.
