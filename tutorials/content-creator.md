@@ -43,18 +43,18 @@ Open `GOALS.md` and add your creator objectives:
 - Platform priority: [YouTube, TikTok, Instagram, etc.]
 ```
 
-### 2. Set Up Your Work Categories
+### 2. Tell Claude About Your Work
 
-Create your `Active/` structure:
+Just describe what you do. Claude will create your folder structure automatically.
 
-```bash
-mkdir -p Active/scripts
-mkdir -p Active/production
-mkdir -p Active/published
-mkdir -p Active/ideas
-mkdir -p Active/partnerships
+```
+You: "I'm a content creator. I make YouTube videos and Instagram reels.
+     I'm working with 2 brands right now and have a bunch of video ideas."
+
+Claude: "I'll set up your workspace. Creating folders for your content work..."
 ```
 
+Claude creates a structure tailored to YOUR content:
 ```
 Active/
 ├── scripts/        # Content in development
@@ -63,6 +63,8 @@ Active/
 ├── ideas/          # Future content concepts
 └── partnerships/   # Brand deals, collaborations
 ```
+
+**No manual setup required.** The structure adapts to your content style.
 
 ---
 

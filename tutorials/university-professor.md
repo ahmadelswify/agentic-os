@@ -47,19 +47,19 @@ Open `GOALS.md` and add your academic objectives:
 - [Student mentoring]
 ```
 
-### 2. Set Up Your Work Categories
+### 2. Tell Claude About Your Work
 
-Create your `Active/` structure:
+Just describe what you do. Claude will create your folder structure automatically.
 
-```bash
-mkdir -p Active/research
-mkdir -p Active/teaching
-mkdir -p Active/students
-mkdir -p Active/service
-mkdir -p Active/grants
-mkdir -p Active/conferences
+```
+You: "I'm a professor. I do research in [field], teach 2 courses,
+     advise 4 PhD students, and I'm on 2 department committees.
+     I also have a grant deadline next month."
+
+Claude: "I'll set up your workspace. Creating folders for your work areas..."
 ```
 
+Claude creates a structure tailored to YOUR work:
 ```
 Active/
 ├── research/       # Papers, analysis, writing, collaborations
@@ -69,6 +69,8 @@ Active/
 ├── grants/         # Applications, reports, budgets
 └── conferences/    # Presentations, travel, networking
 ```
+
+**No manual setup required.** The structure adapts to what you actually do.
 
 ---
 

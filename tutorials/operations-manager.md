@@ -44,19 +44,18 @@ Open `GOALS.md` and add your operations objectives:
 - Reporting and analytics
 ```
 
-### 2. Set Up Your Work Categories
+### 2. Tell Claude About Your Work
 
-Create your `Active/` structure:
+Just describe what you do. Claude will create your folder structure automatically.
 
-```bash
-mkdir -p Active/processes
-mkdir -p Active/vendors
-mkdir -p Active/incidents
-mkdir -p Active/projects
-mkdir -p Active/reporting
-mkdir -p Active/meetings
+```
+You: "I'm an ops manager. I handle vendor contracts, process improvements,
+     incident response, and weekly reporting to leadership."
+
+Claude: "I'll set up your workspace. Creating folders for your operations work..."
 ```
 
+Claude creates a structure tailored to YOUR operations:
 ```
 Active/
 ├── processes/      # Improvements, documentation, SOPs
@@ -66,6 +65,8 @@ Active/
 ├── reporting/      # Metrics, dashboards, updates
 └── meetings/       # Stakeholder coordination
 ```
+
+**No manual setup required.** The structure adapts to what you actually manage.
 
 ---
 

@@ -182,47 +182,27 @@ Use the [career portfolio guide](../use-cases/career-portfolio/) for:
 
 ## Adapting to Your Role
 
-### Step 1: Identify Your Work Types
+### Just Tell Claude About Your Work
 
-What are your main categories of work? Examples:
-- Analysis and reporting
-- Client communication
-- Project execution
-- Administrative tasks
-- Strategic planning
-- Incident response
-- Content creation
-- Vendor management
+No manual setup required. Just describe what you do:
 
-### Step 2: Customize Your Structure
+```
+You: "I'm a [your role]. My main work involves [category 1], [category 2],
+     and [category 3]. Urgent things for me are [what's urgent].
+     Right now I'm focused on [current priorities]."
 
-Create folders in `Active/` that match your work:
-```bash
-mkdir -p Active/[your-category-1]
-mkdir -p Active/[your-category-2]
-mkdir -p Active/[your-category-3]
+Claude: "I'll set up your workspace based on your work..."
 ```
 
-### Step 3: Update AGENTS.md
+Claude will:
+1. Create `Active/` folders that match your actual work categories
+2. Set up your GOALS.md with your priorities
+3. Learn what "urgent" means for YOUR role
+4. Adapt the system to how YOU work
 
-Add your role-specific context to `AGENTS.md`:
-```markdown
-## Work Categories for [Your Role]
+**No forms. No manual folder creation. Just conversation.**
 
-- **[category-1]**: [description of this work]
-- **[category-2]**: [description of this work]
-- **[category-3]**: [description of this work]
-
-## What Counts as Urgent for [Your Role]
-
-- [What qualifies as urgent in your role — hard deadlines, blocking others]
-
-## What Counts as Important for [Your Role]
-
-- [What qualifies as important — committed work, key projects]
-```
-
-### Step 4: Start Using It
+### Start Using It
 
 Brain dump → Process → Work → Repeat
 

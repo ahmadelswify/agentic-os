@@ -175,12 +175,13 @@ Fill in GOALS.md based on what they told you:
 
 ### Step 5: Set Up Career/ (Always useful)
 
-Create the career tracking structure:
+Create career tracking folders:
 
-```bash
-mkdir -p Career/1-on-1s
-mkdir -p Career/portfolio
-mkdir -p Career/professional-development
+```
+Career/
+├── 1-on-1s/                    # Manager meeting notes
+├── portfolio/                   # Accomplishments, wins
+└── professional-development/    # Learning, skills
 ```
 
 Every professional benefits from tracking accomplishments and career development.
