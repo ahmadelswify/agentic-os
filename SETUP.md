@@ -29,8 +29,8 @@ Benefits: Version history, backup to GitHub, sync across devices.
 
 **Step 1: Clone**
 ```bash
-git clone https://github.com/yourusername/work-os.git
-cd work-os
+git clone https://github.com/ahmadelswify/work-os-public.git
+cd work-os-public
 ```
 
 **Step 2: Open with AI**

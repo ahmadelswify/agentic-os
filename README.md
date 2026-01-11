@@ -50,7 +50,7 @@ Benefits: Version history, backup to GitHub, sync across devices.
 
 1. **Clone:**
    ```bash
-   git clone https://github.com/yourusername/work-os.git
+   git clone https://github.com/ahmadelswify/work-os-public.git
    ```
 2. **Open with Claude Code** (or your AI assistant)
 3. **Say:** `"Help me set up work-os"`

@@ -22,8 +22,8 @@ By the end of this guide:
 1. Fork this repository
 2. Clone to your local machine:
 ```bash
-git clone https://github.com/yourusername/work-os.git
-cd work-os
+git clone https://github.com/ahmadelswify/work-os-public.git
+cd work-os-public
 ```
 
 ### Option B: Download
