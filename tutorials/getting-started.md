@@ -6,13 +6,13 @@ A 15-minute guide to setting up your AI-native work management system.
 
 By the end of this guide:
 - ✅ work-os set up and ready to use
-- ✅ AI assistant configured to help you
+- ✅ Claude Code configured to help you
 - ✅ First tasks captured and organized
 - ✅ Daily workflow established
 
 ## Prerequisites
 
-- **An AI assistant**: Claude Code (recommended), ChatGPT, or similar
+- **Claude Code**: Required (see [SETUP.md](../SETUP.md) for installation)
 - **10-15 minutes**: One-time setup
 - **Your work brain**: List of current tasks/projects
 
@@ -31,18 +31,16 @@ cd work-os-public
 2. Extract to your preferred location
 3. Rename folder to `work-os`
 
-## Step 2: Set Up Your AI Assistant (3 minutes)
+## Step 2: Launch Claude Code (2 minutes)
 
-### Using Claude Code (Recommended)
+Navigate to your work-os directory and start Claude Code:
+
 ```bash
-# Add work-os as a project
-claude add-project ~/work-os
+cd work-os-public
+claude
 ```
 
-### Using ChatGPT or Other AI
-1. Open your AI assistant
-2. Share the `AGENTS.md` file
-3. Tell it: "This is how to help me manage my work"
+Claude Code will automatically detect the `CLAUDE.md` file and load the work-os instructions from `AGENTS.md`.
 
 ## Step 3: Configure Your Goals (5 minutes)
 
@@ -132,13 +130,13 @@ Open `BACKLOG.md` and dump everything on your mind:
 
 ## Step 5: Process Your Backlog (5 minutes)
 
-Now the magic happens. Tell your AI:
+Now the magic happens. Tell Claude:
 
 ```
 "Process my backlog"
 ```
 
-### What Your AI Will Do:
+### What Claude Will Do:
 
 1. **Read your backlog** and understand each item
 2. **Check your goals** to see how items align
@@ -177,7 +175,7 @@ BACKLOG.md has been cleared. Brain dump anytime!
 
 ## Step 6: Plan Your Day (2 minutes)
 
-Now ask your AI:
+Now ask Claude:
 
 ```
 "What should I work on today?"
@@ -185,7 +183,7 @@ Now ask your AI:
 
 ### Example Response:
 ```
-AI: Your top priorities for today:
+Claude: Your top priorities for today:
 
 🔴 Urgent:
 1. Prepare for Customer X meeting (tomorrow 10am)
@@ -260,18 +258,18 @@ Explore use cases:
 1. **Brain dump liberally** - Capture everything, organize later
 2. **Process daily** - Don't let your backlog pile up
 3. **Review weekly** - Reflect on accomplishments and adjust priorities
-4. **Trust your AI** - It's learning your patterns and preferences
+4. **Trust Claude** - It's learning your patterns and preferences
 5. **Customize freely** - This is just a starting structure
 
 ## Troubleshooting
 
-**Q: My AI isn't organizing tasks well**
-- Make sure it has access to your `GOALS.md` and `AGENTS.md`
+**Q: Claude isn't organizing tasks well**
+- Make sure Claude Code can read your `GOALS.md` and `AGENTS.md`
 - Be more specific in your brain dumps
 - Give feedback: "This task should be important, not just scheduled"
 
 **Q: I have too many urgent tasks**
-- You probably don't — ask AI to re-prioritize
+- You probably don't — ask Claude to re-prioritize
 - True urgent = hard deadline THIS WEEK or blocking someone
 - Move some to "important" (matters but not this week)
 

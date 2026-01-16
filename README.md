@@ -1,6 +1,8 @@
 # work-os: AI-Native Productivity for Any Professional
 
-A simple, powerful system for managing your work using AI. No apps, no forms, just conversations with your AI assistant.
+> **Built for [Claude Code](https://claude.com/claude-code)** — Terminal-based AI productivity system
+
+A simple, powerful system for managing your work using AI in your terminal. No apps, no forms, just conversations with Claude Code.
 
 ## Why work-os?
 
@@ -31,31 +33,59 @@ No setup overhead. No maintenance burden. No productivity theater.
 
 ---
 
+## What is Claude Code?
+
+**Claude Code** is Anthropic's official CLI tool that brings Claude AI directly into your terminal. It's purpose-built for working with files, code, and project workflows.
+
+Unlike web-based AI chat tools, Claude Code:
+- Works entirely in your terminal
+- Can read, edit, and create files directly in your project
+- Understands your full directory structure
+- Executes commands and tools on your behalf
+- Maintains context across your entire workspace
+
+**Learn more**: [claude.com/claude-code](https://claude.com/claude-code)
+
+## Why Claude Code for Productivity?
+
+Traditional productivity apps require context switching — you leave your work to update a task board, write in a separate app, or fill out forms.
+
+**Claude Code keeps you in flow:**
+
+1. **No App Switching** — Everything happens in your terminal where you already work
+2. **File-Native** — Your tasks, notes, and goals are just markdown files Claude Code can read and edit
+3. **Conversational** — Brain dump naturally, Claude Code organizes everything
+4. **Smart File Operations** — Claude Code creates task files, updates statuses, and organizes your work structure automatically
+5. **Terminal Productivity** — Use the tool developers already live in for their workflows
+
+**work-os + Claude Code = AI-native productivity without leaving your terminal.**
+
+---
+
 ## Quick Start
 
-### Simple Setup (No Git Required) — 2 minutes
+**Prerequisites:** Install Claude Code first — see [SETUP.md](SETUP.md) for detailed instructions.
 
-Don't know Git? No problem.
+Once Claude Code is installed:
 
-1. **Download** — Click the green "Code" button above, then "Download ZIP"
-2. **Extract** — Unzip to a folder (Documents/work-os works great)
-3. **Open with AI** — Open the folder with Claude, ChatGPT, or your AI assistant
-4. **Say:** `"Help me set up work-os"`
+```bash
+# 1. Clone the repository
+git clone https://github.com/ahmadelswify/work-os-public.git
 
-That's it! AI asks about your role, creates your personalized structure, and you're ready to start.
+# 2. Navigate into the directory
+cd work-os-public
 
-### Advanced Setup (With Git) — 5 minutes
+# 3. Launch Claude Code
+claude
 
-Benefits: Version history, backup to GitHub, sync across devices.
+# 4. Start your first workflow
+```
 
-1. **Clone:**
-   ```bash
-   git clone https://github.com/ahmadelswify/work-os-public.git
-   ```
-2. **Open with Claude Code** (or your AI assistant)
-3. **Say:** `"Help me set up work-os"`
+Then say: `"Help me set up work-os"`
 
-See [SETUP.md](SETUP.md) for detailed setup options.
+Claude Code will ask about your role, create your personalized structure, and get you started.
+
+**New to terminals?** See [SETUP.md](SETUP.md) for a step-by-step visual guide with explanations.
 
 ---
 
@@ -219,8 +249,8 @@ AI: Nice! Marked as done.
 
 ## FAQ
 
-**Q: Which AI assistant should I use?**
-A: Works with Claude, ChatGPT, or any AI that can read files. Claude Code recommended.
+**Q: Do I need Claude Code specifically?**
+A: Yes. This system is built for Claude Code's terminal-based file operations and workflows.
 
 **Q: How is this different from Notion/Asana/Jira?**
 A: Those require manual input. work-os is conversational — brain dump, AI organizes.
@@ -243,5 +273,8 @@ MIT — Use it however you want
 ---
 
 **Created by Ahmad Elswify** • [LinkedIn](https://www.linkedin.com/in/swify/)
+
+**Contributors:**
+- Yusef Khedr, Software Engineer
 
 Built to help professionals work smarter, not harder.

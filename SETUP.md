@@ -1,335 +1,636 @@
-# Setting Up work-os
+# Setting Up work-os with Claude Code
 
-> This guide helps you (or your AI assistant) set up work-os for YOUR specific role and needs.
-
-## Choose Your Setup Path
-
-### Path A: Simple Setup (No Git Required)
-
-Don't know Git? Use folders instead of version control.
-
-**Step 1: Download**
-- Click "Code" → "Download ZIP" on GitHub
-- Extract to any folder (Documents/work-os works great)
-
-**Step 2: Open with AI**
-- Open the folder with Claude, ChatGPT, or your AI assistant
-- Say: `"Help me set up work-os"`
-
-**Step 3: Start Working**
-- AI asks about your role and creates your structure
-- Start brain dumping into BACKLOG.md
-- You're ready!
+> A comprehensive guide to getting Claude Code and work-os running on your machine
 
 ---
 
-### Path B: Advanced Setup (With Git)
+## Table of Contents
 
-Benefits: Version history, backup to GitHub, sync across devices.
+1. [Prerequisites](#prerequisites)
+2. [Installation Steps](#installation-steps)
+3. [Understanding Key Files](#understanding-key-files)
+4. [Your First Session](#your-first-session)
+5. [Core Workflows](#core-workflows)
+6. [Troubleshooting](#troubleshooting)
 
-**Step 1: Clone**
+---
+
+## Prerequisites
+
+Before you begin, you'll need:
+
+### 1. **Operating System**
+- **macOS** (recommended) or **Linux**
+- **Windows**: Use WSL (Windows Subsystem for Linux) — [setup guide](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+### 2. **Terminal Familiarity**
+You should know these basic commands:
+- `cd` — Change directory
+- `ls` — List files in a directory
+- `pwd` — Print working directory (where am I?)
+- `git clone` — Clone a repository
+
+Don't worry if you're not a terminal expert — you only need these basics.
+
+### 3. **Node.js**
+Claude Code requires Node.js. Check if you have it:
+
+```bash
+node --version
+```
+
+If you don't have it or it's below v18, install it:
+- **macOS**: `brew install node` (requires [Homebrew](https://brew.sh/))
+- **Linux**: Follow [Node.js official guide](https://nodejs.org/en/download/package-manager)
+- **Windows (WSL)**: Same as Linux
+
+### 4. **Claude API Access**
+You need one of these:
+- **Claude Max subscription** (includes API access) — [claude.com](https://claude.com)
+- **Anthropic API key** — [console.anthropic.com](https://console.anthropic.com)
+
+Claude Code will prompt you to authenticate when you first run it.
+
+---
+
+## Installation Steps
+
+### Visual Overview
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│  STEP 1: Install Claude Code                                           │
+│  npm install -g @anthropic-ai/claude-code                              │
+└─────────────────────────────────────────────────────────────────────────┘
+                                    ↓
+┌─────────────────────────────────────────────────────────────────────────┐
+│  STEP 2: Clone work-os Repository                                      │
+│  git clone https://github.com/ahmadelswify/work-os-public.git          │
+└─────────────────────────────────────────────────────────────────────────┘
+                                    ↓
+┌─────────────────────────────────────────────────────────────────────────┐
+│  STEP 3: Navigate Into Repository                                      │
+│  cd work-os-public                                                     │
+│  ls  (see the structure)                                               │
+└─────────────────────────────────────────────────────────────────────────┘
+                                    ↓
+┌─────────────────────────────────────────────────────────────────────────┐
+│  STEP 4: Launch Claude Code                                            │
+│  claude                                                                │
+└─────────────────────────────────────────────────────────────────────────┘
+                                    ↓
+┌─────────────────────────────────────────────────────────────────────────┐
+│  STEP 5: Start Your First Workflow                                     │
+│  "Help me set up my work-os"                                           │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### Step 1: Install Claude Code
+
+Open your terminal and run:
+
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+**What this does**: Installs Claude Code globally so you can run `claude` from anywhere.
+
+**Verify installation:**
+```bash
+claude --version
+```
+
+You should see version information displayed.
+
+**Alternative installation methods:**
+- **Homebrew (macOS)**: Check if available via `brew search claude-code`
+- **Manual**: Follow [official Claude Code docs](https://claude.com/claude-code)
+
+---
+
+### Step 2: Clone the work-os Repository
+
 ```bash
 git clone https://github.com/ahmadelswify/work-os-public.git
+```
+
+**What this does**: Downloads the work-os template to your computer.
+
+**Where it goes**: Creates a folder called `work-os-public` in your current directory.
+
+**Pro tip**: Clone it somewhere you can easily access, like:
+```bash
+cd ~/Documents  # Navigate to Documents folder first
+git clone https://github.com/ahmadelswify/work-os-public.git
+```
+
+---
+
+### Step 3: Navigate Into the Repository
+
+```bash
 cd work-os-public
 ```
 
-**Step 2: Open with AI**
-- Open with Claude Code (recommended) or your AI assistant
-- Say: `"Help me set up work-os"`
+**Verify you're in the right place:**
+```bash
+ls
+```
 
-**Step 3: Start Working**
-- AI configures everything for you
-- Commit your initial setup: `git add . && git commit -m "Initial work-os setup"`
+You should see files like:
+```
+AGENTS.md       EXAMPLES.md     SETUP.md        templates/
+BACKLOG-template.md    GOALS-template.md    README.md       tutorials/
+```
+
+**Current directory check:**
+```bash
+pwd
+```
+
+Output should end with `/work-os-public`.
 
 ---
 
-## For AI Assistants: Setup Protocol
+### Step 4: Launch Claude Code
 
-When a user says "help me set up work-os", follow this conversational flow.
+Simply run:
 
-### Step 1: Understand Their Role
-
-Ask conversationally (not as a form):
-
-```
-"I'll help you set up work-os for your specific needs. A few questions:
-
-1. What's your role? (e.g., content creator, professor, operations manager,
-   marketing, customer success, product manager, freelancer, etc.)
-
-2. What types of work fill your day?"
+```bash
+claude
 ```
 
-### Step 2: Understand Their Work
+**What happens:**
+- Claude Code launches in your terminal
+- It automatically detects you're in the work-os-public directory
+- It reads the `CLAUDE.md` file (which points to `AGENTS.md`) for instructions
+- You'll see a prompt where you can start typing
 
-Based on their role, ask follow-up questions:
+**First time setup:**
+If this is your first time running Claude Code, it will:
+1. Ask you to authenticate (via browser or API key)
+2. Show you a brief tutorial
+3. Then drop you into the conversation interface
+
+---
+
+### Step 5: Start Your First Workflow
+
+Once Claude Code is running, type:
 
 ```
-"Thanks! To customize this for you:
-
-1. What makes something urgent in your work?
-   (What can't wait? What has hard deadlines?)
-
-2. What do you want to spend less time organizing?
-   (Forgetting follow-ups? Losing track of projects? Not knowing what's priority?)
-
-3. What are your main goals right now?
-   (Could be quarterly targets, projects, career goals, etc.)"
+Help me set up my work-os
 ```
 
-Adapt questions to their role:
-- **Content creators:** Ask about content types, publishing schedule, feedback sources
-- **Professors:** Ask about courses, research projects, advising responsibilities
-- **Operations:** Ask about processes, vendors, incidents they manage
-- **Customer Success:** Ask about accounts, renewals, customer health tracking
-- **Marketing:** Ask about campaigns, content, launches
-- **Freelancers:** Ask about clients, project types, business development
+Claude will:
+1. Ask about your role and work type
+2. Create a personalized directory structure
+3. Set up your `GOALS.md` file
+4. Help you do your first brain dump
+5. Organize everything into tasks
 
-### Step 3: Create Their Structure
+**This takes ~5 minutes** and you'll have a fully personalized productivity system.
 
-Based on their answers, create appropriate directories.
+---
 
-**Example structures by role:**
+## Understanding Key Files
 
-**Content Creator:**
-```
-Active/
-├── scripts/        # Content in development
-├── production/     # In filming/editing
-├── published/      # Live content tracking
-├── ideas/          # Future concepts
-└── partnerships/   # Brand collaborations
-```
+### CLAUDE.md
 
-**Professor:**
-```
-Active/
-├── research/       # Papers, analysis
-├── teaching/       # Course prep, grading
-├── students/       # Advising, mentoring
-├── service/        # Committees, reviews
-└── grants/         # Applications, reports
+**Location**: `/work-os-public/CLAUDE.md`
+
+**Purpose**: Claude Code automatically looks for a `CLAUDE.md` file when it starts in a directory. This file tells Claude how to behave in this workspace.
+
+**Contents**: Usually just points to `AGENTS.md` with:
+```markdown
+@AGENTS.md
 ```
 
-**Operations Manager:**
-```
-Active/
-├── processes/      # Improvements, documentation
-├── vendors/        # Contracts, performance
-├── incidents/      # Issues, resolution
-├── projects/       # Strategic initiatives
-└── reporting/      # Metrics, dashboards
-```
+**Why it exists**: Keeps configuration simple and allows you to update AI instructions without Claude Code knowing file names.
 
-**Customer Success:**
-```
-Active/
-├── accounts/       # Individual accounts
-├── renewals/       # Renewal prep
-├── projects/       # CS initiatives
-├── meetings/       # Customer calls
-└── health/         # Proactive monitoring
-```
+---
 
-**Marketing:**
-```
-Active/
-├── campaigns/      # Active campaigns
-├── content/        # Content creation
-├── launches/       # Product launches
-├── reporting/      # Analytics, metrics
-└── creative/       # Design requests
-```
+### AGENTS.md
 
-**Freelancer:**
-```
-Active/
-├── clients/        # Client work
-├── projects/       # Active projects
-├── business-dev/   # Prospecting, proposals
-├── admin/          # Invoicing, contracts
-└── learning/       # Skill development
-```
+**Location**: `/work-os-public/AGENTS.md`
 
-Create directories that match what the user actually told you about their work.
+**Purpose**: The comprehensive instruction manual for Claude Code on how to manage your work-os.
 
-### Step 4: Set Up GOALS.md
+**What it contains**:
+- Workspace structure and file organization rules
+- Task management workflows
+- Priority frameworks (P0-P3)
+- How to process your inbox
+- Goal alignment requirements
+- Daily guidance behavior
+- Specialized workflows (content generation, morning standup, etc.)
 
-Fill in GOALS.md based on what they told you:
+**Think of it as**: The "operating system manual" for your AI productivity assistant.
 
+**You can customize this file** to change how Claude behaves. For example:
+- Change priority definitions
+- Add custom workflows
+- Adjust tone and interaction style
+- Add domain-specific knowledge for your industry
+
+---
+
+### GOALS.md
+
+**Location**: `/work-os-public/GOALS.md`
+
+**Purpose**: Your strategic objectives and priorities.
+
+**Claude Code uses this to**:
+- Evaluate which tasks are most important
+- Suggest daily priorities aligned with your goals
+- Filter out distractions that don't serve your objectives
+
+**Example structure**:
 ```markdown
 # Goals
 
 ## This Quarter
-1. [Their stated primary goal]
-2. [Their stated secondary goal]
-3. [Career goal if mentioned]
+1. Launch new product feature
+2. Grow team from 3 to 5 people
+3. Improve deployment speed by 50%
 
 ## Key Metrics
-- [Metrics they mentioned caring about]
-
-## Focus Areas
-- [Their main responsibilities]
-- [Projects they mentioned]
+- User retention: 85%+
+- Deploy frequency: 2x per week
+- Team satisfaction: 8/10+
 ```
 
-### Step 5: Set Up Career/ (Always useful)
+---
 
-Create career tracking folders:
+### BACKLOG.md
+
+**Location**: `/work-os-public/BACKLOG.md`
+
+**Purpose**: Your brain dump inbox.
+
+**How to use it**:
+- Throughout your day, quickly capture thoughts here
+- Don't organize, just write
+- End of day: Tell Claude Code "process my backlog"
+- Claude organizes everything into structured tasks
+
+**Example**:
+```markdown
+# Backlog
+
+- Follow up with Sarah about the contract renewal
+- Draft the script for next week's video
+- Review pull request from James
+- Research competitors' new features
+- Book hotel for conference next month
+```
+
+---
+
+### Directory Structure
+
+After setup, your work-os will look like:
 
 ```
-Career/
-├── 1-on-1s/                    # Manager meeting notes
-├── portfolio/                   # Accomplishments, wins
-└── professional-development/    # Learning, skills
+work-os/
+├── CLAUDE.md              # Points Claude Code to AGENTS.md
+├── AGENTS.md              # AI assistant instructions
+├── GOALS.md               # Your objectives and priorities
+├── BACKLOG.md             # Brain dump inbox
+│
+├── Active/                # Current work (YOUR CATEGORIES)
+│   ├── client-work/
+│   ├── projects/
+│   ├── meetings/
+│   └── admin/
+│
+├── Projects/              # Multi-task initiatives
+│   ├── product-launch/
+│   └── website-redesign/
+│
+├── Career/                # Professional development
+│   ├── accomplishments.md
+│   ├── 1-on-1s/
+│   └── portfolio/
+│
+├── Knowledge/             # Reference materials (optional)
+│   ├── company/
+│   └── stakeholders/
+│
+└── Archive/               # Completed work (optional)
 ```
 
-Every professional benefits from tracking accomplishments and career development.
+The `Active/` structure is personalized during setup based on YOUR role.
 
-### Step 6: Initial Brain Dump
+---
 
-Help them capture current work:
+## Your First Session
+
+Let's walk through a complete first session.
+
+### Launch Claude Code
+
+```bash
+cd work-os-public
+claude
+```
+
+### Setup Conversation
 
 ```
-"Great! Your work-os is set up. Let's get you started.
+You: Help me set up my work-os
 
-Brain dump everything on your mind right now — tasks, projects, ideas,
-things you've been meaning to do. Don't organize it, just capture it.
+Claude: I'll help you set up work-os for your needs. A few questions:
 
-I'll process it into organized tasks."
+1. What's your role? (e.g., software engineer, marketer, content creator, etc.)
+2. What types of work fill your day?
+
+You: I'm a product manager. I manage feature development, talk to customers,
+     and work with engineering and design teams.
+
+Claude: Great! To customize this for you:
+
+1. What makes something urgent in your work?
+2. What do you want to spend less time organizing?
+3. What are your main goals right now?
+
+You: Urgent is usually customer escalations or release blockers. I lose track
+     of customer feedback and forget to follow up. Goals are to ship v2.0 this
+     quarter and improve our customer satisfaction score.
+
+Claude: Perfect! Let me set up work-os for product management...
+
+[Creates directory structure]
+[Sets up GOALS.md]
+
+Claude: Done! Your structure:
+
+Active/
+├── feature-work/      # Feature development and specs
+├── customers/         # Customer conversations and feedback
+├── engineering/       # Engineering coordination
+├── design/            # Design collaboration
+└── planning/          # Roadmap and strategy
+
+Your goals (in GOALS.md):
+- Ship v2.0 this quarter
+- Improve customer satisfaction score
+- Better tracking of customer feedback
+
+Now, brain dump everything on your mind — tasks, projects, ideas, anything.
 ```
 
-### Step 7: Process Their Brain Dump
-
-When they provide their list:
-
-1. Create tasks in appropriate Active/ directories
-2. Assess priority based on urgency and deadlines (store internally as P0-P3)
-3. Present to user in natural language (urgent, important, scheduled, idea)
-4. Link tasks to their goals
-5. Create Projects/ folders for major initiatives
-
-**Present the summary conversationally:**
+### Brain Dump
 
 ```
-"All organized! Here's what I created:
+You:
+- Need to review the search feature spec with engineering
+- Follow up with AcmeCorp about their feature request
+- Schedule design review for the dashboard redesign
+- Customer escalation from BetaCo - login issues
+- Draft Q2 roadmap for stakeholder review
+- Research competitor pricing models
+- Prep for 1:1 with my manager on Friday
+
+Claude: [Processing...]
+
+All organized! Here's what I created:
 
 Urgent (this week):
-- [urgent items with context]
+• Customer escalation - BetaCo login issues
+  → Active/customers/betaco-login-issue.md
+• Review search feature spec with engineering (blocking development)
+  → Active/engineering/search-feature-review.md
+• Prep for 1:1 with manager (Friday)
+  → Career/1-on-1s/manager-1on1-prep.md
 
 Important (this month):
-- [key priorities]
+• Follow up with AcmeCorp feature request
+• Schedule design review for dashboard redesign
+• Draft Q2 roadmap for stakeholder review
 
 On your radar:
-- [scheduled work]
-
-Ideas for later:
-- [someday items]
+• Research competitor pricing models
 
 Your work-os is ready! Here's how to use it:
 
 Morning: "What should I work on today?"
-During work: Brain dump into BACKLOG.md
+During work: Add notes to BACKLOG.md
 End of day: "Process my backlog"
 Weekly: "Weekly review"
 
-Want me to show you what to focus on today?"
+Want me to show you what to focus on today?
 ```
 
-### Step 8: Point to Resources
+### Daily Use
 
 ```
-"A few resources that might help:
+You: What should I work on today?
 
-📖 Role guide: tutorials/[their-role].md
-📚 Use cases you might like:
-   - [relevant use case based on their role]
-   - [another relevant use case]
+Claude: Here's your focus for today:
 
-Need help with anything specific?"
+Urgent:
+1. BetaCo login escalation - customer is blocked (30 min estimated)
+2. Review search feature spec - engineering is waiting (1 hour estimated)
+
+If you finish those:
+3. Prep for Friday's 1:1 - gather your wins and discussion topics
+
+The escalation is your top priority since the customer can't use the product.
+After that, unblock engineering on the search feature.
+
+You're in good shape. Two critical items, then you can breathe.
 ```
 
 ---
 
-## Example Setup Conversation
+## Core Workflows
 
-### User: "Help me set up work-os"
+### Morning Planning
 
-**AI:** "I'll help you set up work-os for your needs. A few questions:
+```bash
+claude
+```
 
-1. What's your role?
-2. What types of work fill your day?"
+```
+You: What should I work on today?
+```
 
-### User: "I'm a content creator. I make YouTube videos and Instagram content. I'm also starting to work with brands."
-
-**AI:** "Great! A few more questions to customize this:
-
-1. What makes something urgent for you? (Publishing deadline? Brand partnership deadline?)
-2. What do you want to spend less time organizing? (Tracking scripts? Managing feedback? Remembering what content performed well?)
-3. What are your main goals right now?"
-
-### User: "Urgent is usually a publishing deadline or if a brand is waiting. I lose track of which scripts are where and forget feedback I got. Goals are to grow to 100K subscribers and land 3 brand deals this quarter."
-
-**AI:** "Perfect! Let me set up work-os for content creation..."
-
-[Creates directories, GOALS.md]
-
-**AI:** "Done! Here's your setup:
-
-**Your structure:**
-- Active/scripts/ — Content in development
-- Active/production/ — In filming/editing
-- Active/published/ — Tracking live content
-- Active/ideas/ — Future content concepts
-- Active/partnerships/ — Brand collaborations
-
-**Your goals (in GOALS.md):**
-- Grow to 100K subscribers
-- Land 3 brand deals
-- Improve content tracking (scripts, feedback)
-
-**Special for content creators:**
-- I'll track script versions as you iterate
-- I'll log feedback so you don't forget it
-- I can help you see what content performs best
-
-Now, brain dump everything on your mind — content ideas, scripts in progress, brand conversations, anything."
-
-### User: [provides brain dump]
-
-**AI:** [Processes into organized tasks]
-
-"All organized! Here's what I created:
-
-**Urgent:**
-- Finish morning routine script (publishing Thursday)
-- Reply to BrandX about partnership terms (they're waiting)
-
-**Important this month:**
-- Film productivity setup video
-- Reach out to 5 potential brand partners
-
-**Ideas for later:**
-- Behind-the-scenes content series
-- Collaboration with [other creator]
-
-Want me to show you what to focus on today?"
+Claude reviews your tasks, goals, and priorities to suggest your daily focus.
 
 ---
 
-## Customization Notes for AI
+### Brain Dumping
 
-- **Be conversational** — This should feel like talking to a colleague, not filling a form
-- **Use natural language** — Say "urgent" not "P0", say "important" not "P1"
-- **Never show YAML or technical syntax** — All structure is handled invisibly
-- **Ask follow-ups** — If their role is unclear, ask for examples
-- **Start small** — Don't overwhelm with features, focus on daily workflow
-- **Match their language** — Use the words they use to describe their work
+Throughout your day, capture thoughts in `BACKLOG.md`:
+
+```bash
+# Option 1: Edit BACKLOG.md directly in any editor
+# Option 2: Tell Claude Code directly
+
+You (in Claude session): Add to backlog: Call vendor about invoice discrepancy
+```
 
 ---
 
-## The Goal
+### Processing Your Inbox
 
-User says "help me set up work-os" → 5 minutes later → personalized system ready to use.
+```
+You: Process my backlog
+```
 
-No technical knowledge required. No forms to fill. Just a conversation.
+Claude reads `BACKLOG.md`, creates organized task files, assigns priorities, and clears your inbox.
+
+---
+
+### Updating Task Status
+
+```
+You: Mark [task name] as done
+You: Update [task name] status to in progress
+You: Block [task name] - waiting on legal review
+```
+
+---
+
+### Weekly Review
+
+```
+You: Weekly review
+```
+
+Claude helps you:
+- Review what you accomplished
+- Identify what's still pending
+- Clean up completed tasks
+- Plan next week's priorities
+
+---
+
+## Troubleshooting
+
+### "claude: command not found"
+
+**Problem**: Claude Code isn't installed or not in your PATH.
+
+**Solution**:
+```bash
+npm install -g @anthropic-ai/claude-code
+
+# If still not working, check your PATH
+echo $PATH
+
+# May need to restart terminal
+```
+
+---
+
+### "Permission denied" when installing
+
+**Problem**: npm doesn't have permission to install globally.
+
+**Solution**:
+```bash
+sudo npm install -g @anthropic-ai/claude-code
+```
+
+---
+
+### "Failed to authenticate"
+
+**Problem**: Claude Code can't access your API key or Claude Max subscription.
+
+**Solution**:
+1. Ensure you have an active Claude Max subscription OR Anthropic API key
+2. Run `claude auth` to re-authenticate
+3. Follow the browser authentication flow
+
+---
+
+### Claude Code doesn't see my files
+
+**Problem**: Claude Code is running in the wrong directory.
+
+**Solution**:
+```bash
+# Check current directory
+pwd
+
+# Navigate to work-os
+cd path/to/work-os-public
+
+# Then launch
+claude
+```
+
+---
+
+### "Cannot find AGENTS.md"
+
+**Problem**: You're not in the work-os-public directory.
+
+**Solution**:
+```bash
+# Verify you're in the right place
+ls
+
+# You should see AGENTS.md in the list
+# If not, navigate to work-os-public:
+cd path/to/work-os-public
+```
+
+---
+
+### Claude Code is not using AGENTS.md
+
+**Problem**: CLAUDE.md might not be pointing correctly, or Claude Code isn't detecting it.
+
+**Solution**:
+1. Check that `CLAUDE.md` exists in the root directory
+2. Check its contents - should contain `@AGENTS.md`
+3. Restart Claude Code session
+4. Alternatively, you can directly say "Read AGENTS.md for instructions"
+
+---
+
+### Tasks aren't being created
+
+**Problem**: Directory structure may not exist or permissions issue.
+
+**Solution**:
+```bash
+# Verify Active/ directory exists
+ls -la
+
+# If not, create it
+mkdir -p Active
+
+# Check permissions
+chmod -R u+w .
+```
+
+---
+
+## Next Steps
+
+Now that you're set up:
+
+1. **Try the core workflows** — Morning planning, brain dumping, processing backlog
+2. **Read your role guide** — Check `tutorials/` for role-specific workflows
+3. **Explore use cases** — See `use-cases/` for advanced workflows (1:1 frameworks, career portfolio, etc.)
+4. **Customize AGENTS.md** — Adjust AI behavior to match your preferences
+
+---
+
+## Additional Resources
+
+- **Official Claude Code Docs**: [claude.com/claude-code](https://claude.com/claude-code)
+- **work-os Examples**: See [EXAMPLES.md](EXAMPLES.md) for real conversation examples
+- **GitHub Repository**: [github.com/ahmadelswify/work-os-public](https://github.com/ahmadelswify/work-os-public)
+
+---
+
+**Questions?** Open an issue on GitHub or check the README FAQ.
