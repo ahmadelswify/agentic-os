@@ -50,7 +50,7 @@ Use `AGENTS.md` (in the root directory) so your AI assistant knows how to help y
 ```
 You: "What should I work on today?"
 
-AI: Your CS priorities for today:
+Claude: Your CS priorities for today:
 
 🔴 P0 (Urgent):
 - Prepare for Customer X renewal meeting (tomorrow)
@@ -79,7 +79,7 @@ You: "Add to backlog: Customer Z is unhappy with support response times"
 ```
 You: "Process my backlog"
 
-AI: Created 3 tasks:
+Claude: Created 3 tasks:
 
 1. [P1] Check API rate limits for Customer X
    - Category: account-management
@@ -102,7 +102,7 @@ AI: Created 3 tasks:
 ```
 You: "Show me all renewals this quarter"
 
-AI: Q1 2026 Renewals:
+Claude: Q1 2026 Renewals:
 
 January:
 - Customer A ($500K) - ✅ Renewed 2 years
@@ -120,7 +120,7 @@ March:
 ```
 You: "Help me prep for Customer C renewal"
 
-AI: Customer C Renewal Prep:
+Claude: Customer C Renewal Prep:
 
 Account info:
 - ARR: $300K
@@ -150,7 +150,7 @@ Next steps:
 ```
 You: "Which customers need attention?"
 
-AI: Customers needing proactive outreach:
+Claude: Customers needing proactive outreach:
 
 ⚠️ At Risk:
 - Customer D: Low usage (only 40% of seats), no engagement last 3 weeks
@@ -171,7 +171,7 @@ You: "Add to backlog: Great call with Customer D, they're actually doing well, j
 
 You: "Process backlog"
 
-AI: Updated customer health for Customer D:
+Claude: Updated customer health for Customer D:
 - Status: Changed from "at risk" to "healthy"
 - Notes: Using product differently than expected, but achieving goals
 - Action: Update success metrics for this customer type
@@ -182,7 +182,7 @@ AI: Updated customer health for Customer D:
 ```
 You: "Prepare QBR for Customer E"
 
-AI: Customer E QBR Preparation:
+Claude: Customer E QBR Preparation:
 
 Performance This Quarter:
 - Seats: 50 (no change)
@@ -217,7 +217,7 @@ Created: Active/accounts/customer-e-qbr-prep.md
 ```
 You: "Create account plan for Customer E"
 
-AI: Creating strategic account plan for Customer E...
+Claude: Creating strategic account plan for Customer E...
 
 Account Overview:
 - ARR: $400K (top 10 account)
@@ -258,7 +258,7 @@ Created: Projects/customer-e-strategic-plan/README.md
 ```
 You: "Add to accomplishments: Saved Customer X from churning, $500K renewal, they were evaluating competitors"
 
-AI: Added to Career/accomplishments.md:
+Claude: Added to Career/accomplishments.md:
 - Impact: $500K ARR retained
 - Context: Customer was at risk, evaluating competitors
 - Action: Built business case showing ROI, addressed concerns
@@ -277,7 +277,7 @@ Want me to draft any of these?
 ```
 You: "Help me prep for Senior CSM promotion discussion"
 
-AI: Senior CSM Promotion Case:
+Claude: Senior CSM Promotion Case:
 
 Requirements (typical):
 - Strategic account management
@@ -311,7 +311,7 @@ Ready to discuss in your next 1:1?
 ```
 You: "Show me my CS metrics"
 
-AI: Your CS Performance (Q1 2026 YTD):
+Claude: Your CS Performance (Q1 2026 YTD):
 
 📊 Core Metrics:
 - NRR: 112% (goal: 110%) ✅
@@ -346,7 +346,7 @@ AI: Your CS Performance (Q1 2026 YTD):
 ```
 You: "Weekly CS review"
 
-AI: Your CS Week in Review:
+Claude: Your CS Week in Review:
 
 Accomplishments:
 - ✅ Closed 2 renewals ($500K total)
@@ -380,7 +380,7 @@ AI learns your email tone and drafts customer messages in YOUR voice.
 ```
 You: "Here are a few customer emails I've sent — learn my communication style"
 
-AI: Analyzed your customer communication style:
+Claude: Analyzed your customer communication style:
 
 Your tone:
 - Warm but professional
@@ -407,7 +407,7 @@ I'll match this style for all customer communications.
 ```
 You: "Draft a renewal kickoff email for Customer X"
 
-AI: Here's a draft in your customer voice:
+Claude: Here's a draft in your customer voice:
 
 Subject: Kicking Off Your Renewal Conversation
 
@@ -443,7 +443,7 @@ Matches your style:
 ```
 You: "Draft an email addressing Customer Y's concerns about the outage"
 
-AI: Using your "empathetic but confident" tone for escalations:
+Claude: Using your "empathetic but confident" tone for escalations:
 
 Hi Michael,
 

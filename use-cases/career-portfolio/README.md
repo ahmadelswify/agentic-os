@@ -87,9 +87,11 @@ Career/
 ## Example: Accomplishments Log
 
 ```markdown
-# 2026 Accomplishments
+# Accomplishments Log
 
-## Q1 2026
+## 2026
+
+### Q1 2026
 
 ### Customer Success
 - **Customer X Renewal** (2026-01-15)
@@ -124,14 +126,16 @@ Career/
 
 ---
 
-## Q4 2025
+## 2025
 
-### Revenue & Retention
+### Q4 2025
+
+#### Revenue & Retention
 - **Q4 NRR: 108%** (vs 105% goal)
 - **$2.1M in renewals** closed (12 accounts)
 - **Zero logo churn** for strategic accounts
 
-### Process Improvements
+#### Process Improvements
 - **New Onboarding Flow** (2025-12-18)
   - Redesigned customer onboarding process
   - Impact: 20% time reduction (4 weeks → 3.2 weeks)
@@ -140,7 +144,7 @@ Career/
 
 ---
 
-## Career Highlights 2025
+### Career Highlights 2025
 
 **Total ARR Impact:** $5.3M retained/expanded
 **Churn Reduction:** 15% via dashboard and proactive outreach

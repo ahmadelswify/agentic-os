@@ -74,7 +74,7 @@ Active/
 ```
 You: "What should I work on today?"
 
-AI: Here's your focus for today:
+Claude: Here's your focus for today:
 
 Urgent:
 - Finish editing morning routine video (publishing Thursday)
@@ -105,7 +105,7 @@ Brain dump as ideas hit:
 ```
 You: "Process my backlog"
 
-AI: Created 4 items:
+Claude: Created 4 items:
 
 Scripts/Ideas:
 - Video idea: Learning from worst content (idea for later) → Active/ideas/
@@ -134,7 +134,7 @@ Track scripts from idea to final draft.
 You: "Starting script for '10 Productivity Tips' video, aiming to
       publish next Tuesday"
 
-AI: Created: Active/scripts/10-productivity-tips/
+Claude: Created: Active/scripts/10-productivity-tips/
 
 Structure:
 - script-v1.md (current draft)
@@ -156,7 +156,7 @@ Want to start with the hook or outline first?
 You: "Update the productivity tips script — changing the intro to
       start with a story instead of a question"
 
-AI: Updated script:
+Claude: Updated script:
 - Saved previous version as v1
 - Created v2 with story intro
 - Logged change: "v2: Changed intro from question hook to story hook"
@@ -174,7 +174,7 @@ Want to see them side by side?
 ```
 You: "Show me versions of the productivity tips script"
 
-AI: 10 Productivity Tips Script History:
+Claude: 10 Productivity Tips Script History:
 
 - v3-final.md (current) — Ready for filming
 - v2-draft.md — Story intro version
@@ -196,7 +196,7 @@ Never lose valuable feedback from your audience.
 You: "Comments on my morning routine video say the intro was too
       long and they loved the coffee setup part"
 
-AI: Logged feedback for "Morning Routine" video:
+Claude: Logged feedback for "Morning Routine" video:
 
 Negative:
 - Intro too long (audience feedback)
@@ -217,7 +217,7 @@ Want me to flag intro length when reviewing your next script?
 ```
 You: "Show me feedback patterns across my recent videos"
 
-AI: Feedback Analysis (Last 10 Videos):
+Claude: Feedback Analysis (Last 10 Videos):
 
 What's working:
 - Personal stories in intros (5 mentions)
@@ -247,7 +247,7 @@ Know what content is working.
 You: "Morning routine video got 50K views, 8% engagement,
       45% watched to end"
 
-AI: Logged performance for "Morning Routine":
+Claude: Logged performance for "Morning Routine":
 
 Views: 50K (above your avg of 35K)
 Engagement: 8% (above your avg of 6%)
@@ -268,7 +268,7 @@ This content pattern is worth repeating.
 ```
 You: "How's my content performing this month?"
 
-AI: January 2026 Performance:
+Claude: January 2026 Performance:
 
 Top Performers:
 1. Morning Routine — 50K views, 8% engagement
@@ -296,7 +296,7 @@ Create content based on what's working.
 ```
 You: "What should I make more of based on what's working?"
 
-AI: Based on your performance data:
+Claude: Based on your performance data:
 
 Your winners share these traits:
 - Lifestyle/routine content
@@ -334,7 +334,7 @@ Want me to create a script outline for any of these?
 ```
 You: "Generate 5 video ideas based on my top performer"
 
-AI: Your top performer: "Morning Routine" (50K views, 8% engagement)
+Claude: Your top performer: "Morning Routine" (50K views, 8% engagement)
 
 What made it work:
 - Routine format
@@ -381,7 +381,7 @@ AI learns your unique style and writes in YOUR voice.
 ```
 You: "Here are my last 5 video scripts — learn my style from these"
 
-AI: Analyzed your content voice:
+Claude: Analyzed your content voice:
 
 Your style markers:
 - You open with personal stories, not questions
@@ -403,7 +403,7 @@ I'll match this voice when drafting scripts. Want me to write a sample intro?
 ```
 You: "Draft an intro for my productivity tips video"
 
-AI: Here's an intro in your voice:
+Claude: Here's an intro in your voice:
 
 "So I was sitting at my desk last Tuesday, staring at a to-do list
 that honestly made me want to cry. Fifteen items. Fifteen. And here's
@@ -424,7 +424,7 @@ Want me to adjust anything?
 ```
 You: "That's close but I wouldn't say 'made me want to cry' — too dramatic"
 
-AI: Got it — noted that you keep emotions understated. Updated:
+Claude: Got it — noted that you keep emotions understated. Updated:
 
 "So I was sitting at my desk last Tuesday, staring at a to-do list
 that was honestly ridiculous. Fifteen items. Fifteen..."
@@ -441,7 +441,7 @@ Track sponsorship opportunities and deals.
 You: "BrandX reached out about sponsoring 3 videos, $5K total,
       they sell productivity apps"
 
-AI: Created partnership opportunity: BrandX
+Claude: Created partnership opportunity: BrandX
 
 Details:
 - Brand: BrandX (productivity apps)
@@ -490,7 +490,7 @@ work-os helps you maintain a consistent schedule:
 ```
 You: "Show me my content calendar for next week"
 
-AI: Next Week's Content:
+Claude: Next Week's Content:
 
 Monday:
 - Publish: Productivity Tips (ready)

@@ -291,4 +291,4 @@ Explore use cases:
 
 ---
 
-**Now go forth and work smarter, not harder!** 🚀
+**Now go forth and work smarter, not harder!**

@@ -78,15 +78,15 @@ Career/1-on-1s/
 person: Sarah Chen
 role: Manager
 frequency: Weekly
-started: 2025-01-15
+started: 2024-06-01
 ---
 
 # 1:1 with Sarah Chen
 
-## Current Focus Areas
-- Q1 Goal: Increase NRR by 10%
+## Current Focus Areas (2026 Q1)
+- Q1 2026 Goal: Increase NRR by 10%
 - Leading customer advisory board initiative
-- Promotion track: targeting Senior CSM by Q3
+- Promotion track: targeting Senior CSM by Q3 2026
 
 ## Ongoing Threads
 
@@ -97,7 +97,7 @@ started: 2025-01-15
   * Mentoring junior CSMs
 - 2025-12-10: Training budget approved ($2K/year)
 
-### Q1 Goals & Projects
+### Q1 2026 Goals & Projects
 - 2026-01-15: NRR goal set at 10% increase
 - 2025-12-18: Taking lead on customer advisory board
 - 2025-12-05: Focus on strategic accounts this quarter

@@ -51,7 +51,7 @@ Use `AGENTS.md` (in the root directory) so your AI assistant knows how to help y
 ```
 You: "What should I work on today?"
 
-AI: Your marketing priorities for today:
+Claude: Your marketing priorities for today:
 
 🔴 P0 (Urgent):
 - Finalize product launch email (sends tomorrow)
@@ -80,7 +80,7 @@ You: "Add to backlog: Sales wants more case studies, prioritize tech industry"
 ```
 You: "Process my backlog"
 
-AI: Created 3 tasks:
+Claude: Created 3 tasks:
 
 1. [P2] Develop webinar series concept
    - Category: campaigns
@@ -103,7 +103,7 @@ AI: Created 3 tasks:
 ```
 You: "Starting a Q2 demand generation campaign"
 
-AI: Let's set up your campaign. A few questions:
+Claude: Let's set up your campaign. A few questions:
 - Campaign goal? (MQLs, brand awareness, pipeline?)
 - Target audience?
 - Channels?
@@ -111,7 +111,7 @@ AI: Let's set up your campaign. A few questions:
 
 You: "Goal is 200 MQLs. Target is mid-market SaaS companies. Channels are LinkedIn ads, blog content, webinar. Launch April 1, runs through June 30"
 
-AI: Created campaign: Q2-demand-gen-campaign
+Claude: Created campaign: Q2-demand-gen-campaign
 
 Structure:
 - Projects/q2-demand-gen/README.md (campaign overview)
@@ -130,7 +130,7 @@ Created tasks:
 ```
 You: "What's the status of Q2 demand gen campaign?"
 
-AI: Q2 Demand Gen Campaign Status:
+Claude: Q2 Demand Gen Campaign Status:
 
 Timeline: On track for April 1 launch
 
@@ -159,7 +159,7 @@ Next steps:
 ```
 You: "Show me my content calendar"
 
-AI: Content Calendar - January 2026:
+Claude: Content Calendar - January 2026:
 
 Blog (Goal: 4/month):
 - ✅ Jan 5: "2026 Customer Success Trends" (published)
@@ -189,7 +189,7 @@ Recommendation: Focus on case study today, batch social posts for weeks 3-4.
 ```
 You: "Give me blog post ideas based on my recent work"
 
-AI: Blog post ideas from your recent activity:
+Claude: Blog post ideas from your recent activity:
 
 1. "How We Reduced Customer Churn by 15% with Data"
    - Based on: Customer health dashboard project
@@ -215,7 +215,7 @@ Which would you like to develop?
 ```
 You: "We're launching new analytics features on Feb 15"
 
-AI: Let's plan this product launch:
+Claude: Let's plan this product launch:
 
 Created: Projects/analytics-feature-launch/
 
@@ -247,7 +247,7 @@ Want to start with messaging?
 ```
 You: "It's launch day for analytics features"
 
-AI: Analytics Feature Launch - Day Of:
+Claude: Analytics Feature Launch - Day Of:
 
 Launch checklist:
 - ✅ Email sent (8am) - 42% open rate so far
@@ -277,7 +277,7 @@ Next steps:
 ```
 You: "Need creative brief for Q2 campaign LinkedIn ads"
 
-AI: Creating creative brief...
+Claude: Creating creative brief...
 
 Q2 Demand Gen Campaign - LinkedIn Ad Creative Brief
 
@@ -326,7 +326,7 @@ Created: Projects/q2-demand-gen/briefs/linkedin-ads.md
 ```
 You: "How is the Q1 content campaign performing?"
 
-AI: Q1 Content Campaign Performance:
+Claude: Q1 Content Campaign Performance:
 
 Overall:
 - MQLs: 187 (goal: 200) - 93% ✅
@@ -370,7 +370,7 @@ Recommendations:
 ```
 You: "Turn Q1 demand gen campaign into a portfolio piece"
 
-AI: Created portfolio summary:
+Claude: Created portfolio summary:
 
 Q1 Demand Generation Campaign
 - Challenge: Generate pipeline in competitive market
@@ -395,7 +395,7 @@ This demonstrates:
 ```
 You: "Weekly marketing review"
 
-AI: Your Marketing Week in Review:
+Claude: Your Marketing Week in Review:
 
 Content Shipped:
 - ✅ 2 blog posts published
@@ -432,7 +432,7 @@ AI learns your brand voice and writes all content in YOUR style.
 ```
 You: "Here are our brand guidelines and 5 recent blog posts — learn our voice"
 
-AI: Analyzed your brand and writing style:
+Claude: Analyzed your brand and writing style:
 
 Brand voice:
 - Confident but not arrogant
@@ -459,7 +459,7 @@ I'll match this voice for all content. Want me to draft something?
 ```
 You: "Draft a blog post intro about our new analytics feature"
 
-AI: Here's an intro in your brand voice:
+Claude: Here's an intro in your brand voice:
 
 "Your marketing data is scattered across 12 different dashboards.
 Sound familiar?
@@ -485,7 +485,7 @@ Matches your brand voice:
 ```
 You: "Now create social posts for this same feature"
 
-AI: Here's the same message adapted for each channel:
+Claude: Here's the same message adapted for each channel:
 
 **LinkedIn (professional):**
 "Marketers spend 5+ hours weekly just pulling reports.

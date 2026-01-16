@@ -188,10 +188,11 @@ See [use-cases/meeting-notes](use-cases/meeting-notes) for:
 
 ---
 
-## Role-Specific Guides
+## Getting Started & Role-Specific Guides
 
-Choose the guide that fits your work:
+Start here, then choose the guide that fits your work:
 
+- **[Getting Started](tutorials/getting-started.md)** — 15-minute setup guide for everyone
 - **[Content Creator](tutorials/content-creator.md)** — Scripts, feedback, performance tracking
 - **[University Professor](tutorials/university-professor.md)** — Research, teaching, advising, grants
 - **[Operations Manager](tutorials/operations-manager.md)** — Processes, vendors, incidents

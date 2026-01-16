@@ -80,7 +80,7 @@ Active/
 ```
 You: "What should I work on today?"
 
-AI: Here's your focus for today:
+Claude: Here's your focus for today:
 
 Urgent:
 - Finish grant proposal (deadline Friday)
@@ -111,7 +111,7 @@ Brain dump as things come up:
 ```
 You: "Process my backlog"
 
-AI: Created 4 tasks:
+Claude: Created 4 tasks:
 - Review paper for potential citation (on your radar) → Active/research/
 - Meet with Student X about analysis (important) → Active/students/
 - Consider hiring committee participation (idea) → Active/service/
@@ -131,7 +131,7 @@ Track papers from idea to publication.
 You: "I'm starting a new paper on [topic]. Aiming for [Journal], want to
       submit by end of semester."
 
-AI: Created project: [paper-topic]
+Claude: Created project: [paper-topic]
 
 Structure:
 - Projects/[paper-topic]/README.md
@@ -154,7 +154,7 @@ Want me to break any of these down further?
 ```
 You: "What's the status of my Nature paper?"
 
-AI: Nature Paper on [Topic]:
+Claude: Nature Paper on [Topic]:
 
 Progress: 60% complete
 Target submission: March 15
@@ -183,7 +183,7 @@ AI learns your writing style and drafts in YOUR voice.
 ```
 You: "Here are three papers I've published — learn my academic writing style"
 
-AI: Analyzed your academic voice:
+Claude: Analyzed your academic voice:
 
 Your style markers:
 - You favor active voice over passive (unusual in your field)
@@ -205,7 +205,7 @@ I'll match this style when drafting sections. Want me to draft your methodology?
 ```
 You: "Draft the opening paragraph for my methodology section"
 
-AI: Here's a draft in your academic voice:
+Claude: Here's a draft in your academic voice:
 
 "We employed a mixed-methods approach to examine the relationship
 between X and Y. The study proceeded in three phases. First, we
@@ -225,7 +225,7 @@ Want me to continue with the next section?
 ```
 You: "Help me draft the significance section for my NSF grant"
 
-AI: I'll match the slightly different tone you use for grants
+Claude: I'll match the slightly different tone you use for grants
 (more assertive than papers). Here's a draft:
 
 "This research will transform our understanding of [X] by...
@@ -249,7 +249,7 @@ Stay on top of course preparation and grading.
 You: "I'm teaching PHYS 301 this semester, 45 students, need to prep
       lectures, assignments, and exams"
 
-AI: Created project: PHYS-301-Spring-2026
+Claude: Created project: PHYS-301-Spring-2026
 
 Tasks organized by week:
 - Week 1: Syllabus finalized, intro lecture prepped
@@ -268,7 +268,7 @@ Want me to create the weekly structure?
 ```
 You: "45 midterms to grade, need to return by next Friday"
 
-AI: Created grading task: PHYS 301 Midterms
+Claude: Created grading task: PHYS 301 Midterms
 
 Breakdown (to finish by Friday):
 - 45 exams ÷ 5 days = 9 exams/day
@@ -293,7 +293,7 @@ Track student progress and meetings.
 You: "Meeting with PhD student Sarah tomorrow, she's working on
       Chapter 2 of her thesis"
 
-AI: Preparing for Sarah 1:1:
+Claude: Preparing for Sarah 1:1:
 
 Sarah's context:
 - PhD Year 3, thesis on [topic]
@@ -321,7 +321,7 @@ Questions to ask:
 ```
 You: "Show me all my PhD students' status"
 
-AI: PhD Student Overview:
+Claude: PhD Student Overview:
 
 Sarah (Year 3):
 - Thesis: 40% complete
@@ -351,7 +351,7 @@ Track grant deadlines and progress.
 You: "NSF grant deadline is March 1, need to coordinate with two
       co-PIs and get department approval"
 
-AI: Created project: NSF-Grant-2026
+Claude: Created project: NSF-Grant-2026
 
 Timeline (working backward from March 1):
 - Feb 1: Internal deadline (department review)

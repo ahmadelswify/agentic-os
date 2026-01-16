@@ -241,6 +241,8 @@ Claude will:
 
 **Location**: `/work-os-public/GOALS.md`
 
+**Note:** This file is created during your initial setup from `GOALS-template.md`. Claude Code will help you populate it when you say "Help me set up work-os".
+
 **Purpose**: Your strategic objectives and priorities.
 
 **Claude Code uses this to**:
@@ -268,6 +270,8 @@ Claude will:
 ### BACKLOG.md
 
 **Location**: `/work-os-public/BACKLOG.md`
+
+**Note:** This file is created during your initial setup from `BACKLOG-template.md`. Claude Code will help you create it when you say "Help me set up work-os".
 
 **Purpose**: Your brain dump inbox.
 

@@ -85,7 +85,7 @@ Active/
 ```
 You: "What should I work on today?"
 
-AI: Based on your tasks and goals:
+Claude: Based on your tasks and goals:
 
 🔴 Urgent:
 - [Deadline today or blocking others]
@@ -115,7 +115,7 @@ Throughout your day, capture everything in BACKLOG.md:
 ```
 You: "Process my backlog"
 
-AI: [Reads your brain dump]
+Claude: [Reads your brain dump]
     [Checks your goals and current projects]
     [Creates organized tasks with priorities]
     [Asks clarifying questions if needed]
@@ -126,7 +126,7 @@ AI: [Reads your brain dump]
 ```
 You: "Weekly review"
 
-AI: This week you:
+Claude: This week you:
 
 Accomplished:
 - ✅ [completed tasks]
@@ -212,7 +212,7 @@ Brain dump → Process → Work → Repeat
 ```
 You: "Add to backlog: Q1 budget variance analysis needed for leadership review"
 
-AI: Created task:
+Claude: Created task:
 - Marked as important (leadership visibility)
 - Category: reporting
 - Due: End of week (typical review cycle)
@@ -220,7 +220,7 @@ AI: Created task:
 
 You: "What should I focus on today?"
 
-AI: Your finance priorities:
+Claude: Your finance priorities:
 
 Urgent:
 - Finalize Q1 variance analysis (leadership review tomorrow)
@@ -234,7 +234,7 @@ Important:
 ```
 You: "Add to backlog: Need to coordinate performance review cycle, Q1 reviews due in 2 weeks"
 
-AI: Created project: Q1 Performance Review Cycle
+Claude: Created project: Q1 Performance Review Cycle
 
 Tasks:
 - Send performance review reminders to managers (urgent — due this week)
@@ -244,7 +244,7 @@ Tasks:
 
 You: "Show project status"
 
-AI: Q1 Performance Review Cycle:
+Claude: Q1 Performance Review Cycle:
 - 65% of reviews submitted
 - 5 managers need reminders
 - Calibration meeting scheduled for Friday
@@ -254,7 +254,7 @@ AI: Q1 Performance Review Cycle:
 ```
 You: "Add to backlog: Feature X feedback from 3 customers, they want Y capability"
 
-AI: Created task:
+Claude: Created task:
 - On your radar (customer feedback for roadmap)
 - Category: product-strategy
 - Next action: Document feedback, discuss with eng team
@@ -262,7 +262,7 @@ AI: Created task:
 
 You: "What's our Q2 roadmap status?"
 
-AI: Q2 Roadmap Planning:
+Claude: Q2 Roadmap Planning:
 - Feature prioritization: 80% complete
 - Eng capacity planning: in progress
 - Stakeholder alignment: 2 more reviews needed
@@ -273,7 +273,7 @@ AI: Q2 Roadmap Planning:
 ```
 You: "Add to backlog: CEO needs brief for board meeting on strategic initiatives, Friday"
 
-AI: Created task:
+Claude: Created task:
 - Urgent (CEO + board + this week)
 - Category: executive-support
 - Due: Thursday (day before meeting)
@@ -281,7 +281,7 @@ AI: Created task:
 
 You: "What prep is needed for this week's meetings?"
 
-AI: Meeting prep priorities:
+Claude: Meeting prep priorities:
 
 Urgent:
 - Board meeting brief for CEO (Friday)
@@ -304,7 +304,7 @@ Every professional writes differently — emails, reports, proposals, updates. A
 ```
 You: "Here are some emails and reports I've written — learn my style"
 
-AI: Analyzed your communication style:
+Claude: Analyzed your communication style:
 
 Your email patterns:
 - You get to the point fast (no "I hope this finds you well")
@@ -331,7 +331,7 @@ I'll match this style for all written communications.
 ```
 You: "Draft an email to my manager about the project delay"
 
-AI: Here's a draft in your style:
+Claude: Here's a draft in your style:
 
 Subject: Q1 Project Update — 2-Week Delay
 
@@ -363,7 +363,7 @@ Matches your style:
 ```
 You: "Actually I wouldn't say 'Hey' to my manager — too casual"
 
-AI: Got it — noted that you use "Hi [Name]" for managers,
+Claude: Got it — noted that you use "Hi [Name]" for managers,
 save "Hey" for peers. I'll adjust for audience going forward.
 ```
 
