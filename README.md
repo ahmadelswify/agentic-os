@@ -62,9 +62,18 @@ Traditional productivity apps require context switching — you leave your work 
 
 ---
 
-## Quick Start
+## Requirements
 
-**Prerequisites:** Install Claude Code first — see [SETUP.md](SETUP.md) for detailed instructions.
+- **Claude Code** — Anthropic's terminal-based AI tool
+  - Get it via [Claude Max subscription](https://claude.com) (includes API access), OR
+  - Get it via [Anthropic API key](https://console.anthropic.com)
+- **Node.js v18+** — Required to run Claude Code
+
+See [SETUP.md](SETUP.md) for detailed installation instructions.
+
+---
+
+## Quick Start
 
 Once Claude Code is installed:
 
