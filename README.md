@@ -1,14 +1,12 @@
+[![GitHub stars](https://img.shields.io/github/stars/ahmadelswify/work-os-public?style=flat)](https://github.com/ahmadelswify/work-os-public/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/ahmadelswify/work-os-public)](https://github.com/ahmadelswify/work-os-public/commits/main)
+
 # work-os: AI-Native Productivity for Any Professional
 
-> **Built for [Claude Code](https://claude.com/claude-code)** — Terminal-based AI productivity system
+> Brain dump naturally. AI organizes everything. You keep working.
 
-A simple, powerful system for managing your work using AI in your terminal. No apps, no forms, just conversations with Claude Code.
-
-## Why work-os?
-
-Most productivity tools force you into rigid structures: fill out forms, click through interfaces, manually organize tasks. **work-os flips this around** — you brain dump naturally, and AI structures everything for you.
-
-**Works for any professional role** — content creators, professors, operations managers, marketers, freelancers, and anyone who wants AI to handle organization while they handle work.
+A terminal-based system where you talk to AI instead of filling out forms. No apps, no context-switching. Built for [Claude Code](https://claude.com/claude-code).
 
 ## How It Works
 
@@ -17,94 +15,30 @@ Most productivity tools force you into rigid structures: fill out forms, click t
 3. **AI organizes everything** into structured tasks, projects, and priorities
 4. **Work naturally** by asking "what should I work on today?"
 
-That's it. No manual categorization, no form-filling, no app-switching.
-
-## Why I Built This
-
-I tried Notion. I tried Todoist. I even tried GTD, bullet journaling, and every productivity "system" out there.
-
-**The pattern was always the same**: Week 1, excited. Week 2, customizing. Week 3, spending more time organizing than working. Week 4, back to scattered notes.
-
-**The irony**: Productivity systems became my biggest productivity drain.
-
-**The key insight**: Let AI handle the system while you handle the work. Brain dump. AI organizes. You keep working.
-
-No setup overhead. No maintenance burden. No productivity theater.
-
----
-
-## What is Claude Code?
-
-**Claude Code** is Anthropic's official CLI tool that brings Claude AI directly into your terminal. It's purpose-built for working with files, code, and project workflows.
-
-Unlike web-based AI chat tools, Claude Code:
-- Works entirely in your terminal
-- Can read, edit, and create files directly in your project
-- Understands your full directory structure
-- Executes commands and tools on your behalf
-- Maintains context across your entire workspace
-
-**Learn more**: [claude.com/claude-code](https://claude.com/claude-code)
-
-## Why Claude Code for Productivity?
-
-Traditional productivity apps require context switching — you leave your work to update a task board, write in a separate app, or fill out forms.
-
-**Claude Code keeps you in flow:**
-
-1. **No App Switching** — Everything happens in your terminal where you already work
-2. **File-Native** — Your tasks, notes, and goals are just markdown files Claude Code can read and edit
-3. **Conversational** — Brain dump naturally, Claude Code organizes everything
-4. **Smart File Operations** — Claude Code creates task files, updates statuses, and organizes your work structure automatically
-5. **Terminal Productivity** — Use the tool developers already live in for their workflows
-
-**work-os + Claude Code = AI-native productivity without leaving your terminal.**
-
----
-
-## Requirements
-
-- **Claude Code** — Anthropic's terminal-based AI tool
-  - Get it via [Claude Max subscription](https://claude.com) (includes API access), OR
-  - Get it via [Anthropic API key](https://console.anthropic.com)
-- **Node.js v18+** — Required to run Claude Code
-
-See [SETUP.md](SETUP.md) for detailed installation instructions.
-
----
+No manual categorization. No form-filling. No app-switching.
 
 ## Quick Start
 
-Once Claude Code is installed:
+Requires [Claude Code](https://claude.com/claude-code) and Node.js v18+. See [Requirements](#requirements) for setup options.
 
 ```bash
-# 1. Clone the repository
+# Clone the repository
 git clone https://github.com/ahmadelswify/work-os-public.git
 
-# 2. Navigate into the directory
+# Navigate into the directory
 cd work-os-public
 
-# 3. Launch Claude Code
+# Launch Claude Code
 claude
-
-# 4. Start your first workflow
 ```
 
 Then say: `"Help me set up work-os"`
 
 Claude Code will ask about your role, create your personalized structure, and get you started.
 
-**New to terminals?** See [SETUP.md](SETUP.md) for a step-by-step visual guide with explanations.
+**New to terminals?** See [SETUP.md](SETUP.md) for a step-by-step visual guide.
 
----
-
-## Daily Workflow
-
-**First Time Setup:**
-```
-"Help me set up work-os"
-```
-AI asks about your role and configures everything for you.
+## Your Daily Workflow
 
 **Morning:**
 ```
@@ -131,7 +65,28 @@ AI organizes everything into tasks with priorities and context.
 ```
 AI helps you reflect, track progress, and plan ahead.
 
----
+## How Is This Different?
+
+| | Traditional Tools | work-os |
+|---|---|---|
+| **Input** | Forms, fields, clicks | Natural conversation |
+| **Organization** | Manual categories + tags | AI handles it automatically |
+| **Daily planning** | Open app, scan board | "What should I work on?" |
+| **Capture speed** | Switch apps, fill fields | "Add to backlog: ..." |
+| **Maintenance** | Weekly cleanup sessions | Zero maintenance |
+| **Data** | Cloud-dependent | Local files on your machine |
+
+## Adapts to Any Role
+
+Start here, then choose the guide that fits your work:
+
+- **[Getting Started](tutorials/getting-started.md)** — 15-minute setup for everyone
+- **[Content Creator](tutorials/content-creator.md)** — Scripts, feedback, performance tracking
+- **[University Professor](tutorials/university-professor.md)** — Research, teaching, advising, grants
+- **[Operations Manager](tutorials/operations-manager.md)** — Processes, vendors, incidents
+- **[Customer Success](tutorials/customer-success.md)** — Accounts, renewals, customer health
+- **[Marketing](tutorials/marketing.md)** — Campaigns, content, launches
+- **[General Professional](tutorials/general-professional.md)** — Works for any role
 
 ## Directory Structure
 
@@ -151,69 +106,9 @@ work-os/
 └── Archive/             # Completed work (optional)
 ```
 
-The `Active/` folder structure is personalized during setup based on your role.
+The `Active/` folder is personalized during setup based on your role.
 
----
-
-## Real-World Use Cases
-
-### 1:1 Meeting Prep
-See [use-cases/1-on-1-frameworks](use-cases/1-on-1-frameworks) for:
-- Track ongoing conversation threads
-- Log accomplishments for performance reviews
-- Prepare meaningful talking points
-
-### Professional Development
-See [use-cases/professional-development](use-cases/professional-development) for:
-- Skills you're building
-- Courses and learning
-- Career goals and milestones
-
-### Project Management
-See [use-cases/project-tracking](use-cases/project-tracking) for:
-- Cross-functional initiatives
-- Stakeholder communication
-- Project deliverables and timelines
-
-### Career Portfolio
-See [use-cases/career-portfolio](use-cases/career-portfolio) for:
-- Accomplishment logs with metrics
-- Portfolio-worthy project summaries
-- Interview-ready achievement stories
-
-### Meeting Notes
-See [use-cases/meeting-notes](use-cases/meeting-notes) for:
-- Processing meetings into action items
-- Tracking decisions and next steps
-
----
-
-## Getting Started & Role-Specific Guides
-
-Start here, then choose the guide that fits your work:
-
-- **[Getting Started](tutorials/getting-started.md)** — 15-minute setup guide for everyone
-- **[Content Creator](tutorials/content-creator.md)** — Scripts, feedback, performance tracking
-- **[University Professor](tutorials/university-professor.md)** — Research, teaching, advising, grants
-- **[Operations Manager](tutorials/operations-manager.md)** — Processes, vendors, incidents
-- **[Customer Success](tutorials/customer-success.md)** — Accounts, renewals, customer health
-- **[Marketing](tutorials/marketing.md)** — Campaigns, content, launches
-- **[General Professional](tutorials/general-professional.md)** — Works for any role
-
----
-
-## Key Principles
-
-1. **AI-First** — Design for conversation, not manual entry
-2. **Simple Structure** — Folders and markdown files, nothing fancy
-3. **Brain Dump Friendly** — Capture first, organize later
-4. **Goals-Aligned** — Every task connects to your objectives
-5. **Career-Focused** — Everything feeds into your professional growth
-6. **Invisible Complexity** — AI handles structure, you never see technical details
-
----
-
-## Example Conversation
+## See It in Action
 
 ```
 You: "Add to backlog: Client wants to discuss expanding the project scope,
@@ -246,35 +141,65 @@ AI: Nice! Marked as done.
     want me to track it?
 ```
 
----
+Notice what happened: you brain dumped one sentence, AI structured it into a task connected to your goals, then proactively offered to track it as a career accomplishment. That's the difference between a to-do list and a system that works for you.
 
-## Getting Started
+## Real-World Use Cases
 
-1. **Download or clone** this repo
-2. **Open with your AI assistant**
-3. **Say** `"Help me set up work-os"`
-4. **Start brain dumping** and let AI organize your work
+- **[1:1 Meeting Prep](use-cases/1-on-1-frameworks)** — Track threads, log accomplishments, prepare talking points
+- **[Professional Development](use-cases/professional-development)** — Skills, courses, career milestones
+- **[Project Tracking](use-cases/project-tracking)** — Cross-functional initiatives, stakeholders, deliverables
+- **[Career Portfolio](use-cases/career-portfolio)** — Accomplishment logs, project summaries, interview stories
+- **[Meeting Notes](use-cases/meeting-notes)** — Process meetings into action items and decisions
 
----
+## Requirements
+
+- **[Claude Code](https://claude.com/claude-code)** — Anthropic's terminal-based AI tool
+  - Via [Claude Max subscription](https://claude.com) (includes API access), or
+  - Via [Anthropic API key](https://console.anthropic.com)
+- **Node.js v18+** — Required to run Claude Code
+
+See [SETUP.md](SETUP.md) for detailed installation instructions.
 
 ## FAQ
 
 **Q: Do I need Claude Code specifically?**
-A: Yes. This system is built for Claude Code's terminal-based file operations and workflows.
+A: Yes. work-os is built for Claude Code's terminal-based file operations and workflows.
 
 **Q: How is this different from Notion/Asana/Jira?**
-A: Those require manual input. work-os is conversational — brain dump, AI organizes.
+A: Those require manual input and context-switching. work-os is conversational. You brain dump, AI organizes. You never leave your terminal.
 
 **Q: Will my data stay private?**
-A: Yes. Just files on your computer. Nothing uploaded unless you back up to GitHub.
+A: Yes. Everything stays as local files on your computer. Nothing is uploaded unless you choose to back up to GitHub.
 
----
+**Q: Can I use this for personal tasks, not just work?**
+A: Absolutely. The structure adapts to whatever you need. Some users track personal goals, side projects, and career development alongside work.
+
+**Q: What roles work best with this?**
+A: Any professional role. See [Adapts to Any Role](#adapts-to-any-role) for specific guides.
+
+## Community
+
+- **[Landing Page](https://work-os-landing.vercel.app)** — Interactive demo and setup
+- **[Discord](https://discord.gg/GKg8TGmA)** — Join builders using AI-native productivity
+- **[LinkedIn](https://www.linkedin.com/in/swify/)** — Follow for tips and updates
+- **Newsletter:** "Work Smarter with AI" on LinkedIn
 
 ## Contributing
 
-Found this helpful? Have ideas? Open an issue or PR!
+Found this helpful? Have ideas? Open an issue or PR.
 
----
+<details>
+<summary><strong>The Story Behind work-os</strong></summary>
+
+I tried Notion. I tried Todoist. I even tried GTD, bullet journaling, and every productivity "system" out there.
+
+The pattern was always the same: Week 1, excited. Week 2, customizing. Week 3, spending more time organizing than working. Week 4, back to scattered notes.
+
+Productivity systems became my biggest productivity drain.
+
+So I built something different: let AI handle the system while you handle the work. Brain dump. AI organizes. You keep working. No setup overhead. No maintenance burden. No productivity theater.
+
+</details>
 
 ## License
 
@@ -286,5 +211,3 @@ MIT — Use it however you want
 
 **Contributors:**
 - Yusef Khedr, Software Engineer
-
-Built to help professionals work smarter, not harder.
