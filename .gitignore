@@ -28,6 +28,9 @@ BACKLOG.md
 # Uncomment this after you've customized it:
 # AGENTS.md
 
+# Health reports (generated, point-in-time)
+.health/
+
 # OS files
 .DS_Store
 Thumbs.db

@@ -94,19 +94,24 @@ Your structure adapts to your role. Here's the base:
 
 ```
 work-os/
+├── AGENTS.md            # AI instructions (~80 lines — the map)
 ├── BACKLOG.md           # Your brain dump inbox
 ├── GOALS.md             # Your objectives
+├── docs/                # The harness — agent instructions, workflows,
+│   │                    #   validation rules, and cleanup processes
+│   ├── golden-principles.md
+│   ├── agent-instructions/
+│   ├── workflows/
+│   ├── validation/
+│   └── garbage-collection/
 ├── Active/              # Current work (organized by YOUR categories)
 ├── Projects/            # Multi-task initiatives
 ├── Career/              # Professional development
-│   ├── accomplishments.md
-│   ├── 1-on-1s/
-│   └── portfolio/
-├── Knowledge/           # Reference materials (optional)
-└── Archive/             # Completed work (optional)
+├── Knowledge/           # Reference materials
+└── Archive/             # Completed work
 ```
 
-The `Active/` folder is personalized during setup based on your role.
+The `Active/` folder is personalized during setup based on your role. The `docs/` folder is the harness — structured instructions the AI reads on-demand instead of loading everything at once. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for how all pieces connect.
 
 ## See It in Action
 
@@ -179,7 +184,7 @@ A: Any professional role. See [Adapts to Any Role](#adapts-to-any-role) for spec
 
 ## Community
 
-- **[Landing Page](https://work-os-landing.vercel.app)** — Interactive demo and setup
+- **[Landing Page](https://work-os.rizq.build)** — Interactive demo and setup
 - **[Discord](https://discord.gg/GKg8TGmA)** — Join builders using AI-native productivity
 - **[LinkedIn](https://www.linkedin.com/in/swify/)** — Follow for tips and updates
 - **Newsletter:** "Work Smarter with AI" on LinkedIn

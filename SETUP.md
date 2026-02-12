@@ -143,6 +143,7 @@ You should see files like:
 ```
 AGENTS.md       EXAMPLES.md     SETUP.md        templates/
 BACKLOG-template.md    GOALS-template.md    README.md       tutorials/
+CLAUDE.md       docs/           use-cases/
 ```
 
 **Current directory check:**
@@ -216,24 +217,17 @@ Claude will:
 
 **Location**: `/work-os-public/AGENTS.md`
 
-**Purpose**: The comprehensive instruction manual for Claude Code on how to manage your work-os.
+**Purpose**: A short (~80 line) table of contents that tells the AI where to find instructions.
 
-**What it contains**:
-- Workspace structure and file organization rules
-- Task management workflows
-- Priority frameworks (P0-P3)
-- How to process your inbox
-- Goal alignment requirements
-- Daily guidance behavior
-- Specialized workflows (content generation, morning standup, etc.)
+**Think of it as**: The map, not the manual. It points to deeper instruction files in `docs/` that the AI reads on-demand.
 
-**Think of it as**: The "operating system manual" for your AI productivity assistant.
+**The `docs/` directory** contains the full harness:
+- `docs/agent-instructions/` — How to process inbox, manage tasks, align goals, etc.
+- `docs/workflows/` — Auto-detected workflows (content writing, weekly review, resume tailoring)
+- `docs/validation/` — Rules the AI checks after creating tasks
+- `docs/garbage-collection/` — Cleanup rules for stale tasks and orphaned files
 
-**You can customize this file** to change how Claude behaves. For example:
-- Change priority definitions
-- Add custom workflows
-- Adjust tone and interaction style
-- Add domain-specific knowledge for your industry
+**You can customize** by editing files in `docs/` — each file is focused on one topic.
 
 ---
 
@@ -301,9 +295,16 @@ After setup, your work-os will look like:
 ```
 work-os/
 ├── CLAUDE.md              # Points Claude Code to AGENTS.md
-├── AGENTS.md              # AI assistant instructions
+├── AGENTS.md              # AI map (~80 lines, points to docs/)
 ├── GOALS.md               # Your objectives and priorities
 ├── BACKLOG.md             # Brain dump inbox
+│
+├── docs/                  # The harness (AI instructions, workflows, validation)
+│   ├── golden-principles.md
+│   ├── agent-instructions/
+│   ├── workflows/
+│   ├── validation/
+│   └── garbage-collection/
 │
 ├── Active/                # Current work (YOUR CATEGORIES)
 │   ├── client-work/
@@ -312,22 +313,13 @@ work-os/
 │   └── admin/
 │
 ├── Projects/              # Multi-task initiatives
-│   ├── product-launch/
-│   └── website-redesign/
-│
 ├── Career/                # Professional development
-│   ├── accomplishments.md
-│   ├── 1-on-1s/
-│   └── portfolio/
-│
-├── Knowledge/             # Reference materials (optional)
-│   ├── company/
-│   └── stakeholders/
-│
-└── Archive/               # Completed work (optional)
+├── Knowledge/             # Reference materials
+├── Archive/               # Completed work
+└── .health/               # Generated health reports (gitignored)
 ```
 
-The `Active/` structure is personalized during setup based on YOUR role.
+The `Active/` structure is personalized during setup based on YOUR role. The `docs/` folder is the harness — it contains all the AI's instructions, broken into focused files that are loaded on-demand.
 
 ---
 
