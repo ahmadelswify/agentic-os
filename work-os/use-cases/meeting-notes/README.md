@@ -96,7 +96,7 @@ project: q1-strategy
 
 ## Attendees
 - Sarah Chen (CS Manager)
-- Ahmad Al Swify (Sr. CSM)
+- Ahmad Elswify (Sr. CSM)
 - John Lee (Support Lead)
 - Maya Rodriguez (Product Manager)
 
