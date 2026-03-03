@@ -119,6 +119,14 @@ meeting-os works great on its own with manual notes, but it's even better with [
 
 See [docs/granola-integration.md](docs/granola-integration.md) for setup instructions.
 
+## Quick Commands
+
+| Command | What it does |
+|---------|-------------|
+| `/setup` | Set up your meeting-os workspace (~3 min) |
+| `/process-meeting` | Extract decisions, action items, and follow-ups from notes |
+| `/prep-meeting [name]` | Prepare for a meeting with history and open items |
+
 ## Requirements
 
 - [Claude Code](https://claude.com/claude-code) and Node.js v18+

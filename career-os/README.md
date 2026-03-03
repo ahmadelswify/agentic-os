@@ -106,6 +106,15 @@ Impact Library → Tailored Resume → Interview → Outcome
 - **Interview feedback** refines how you tell stories
 - **New achievements** expand your impact library
 
+## Quick Commands
+
+| Command | What it does |
+|---------|-------------|
+| `/setup` | Set up your career-os workspace (~10 min) |
+| `/tailor-resume` | Parse a JD and produce a tailored resume |
+| `/prep-interview` | Prepare for an interview with stories and practice |
+| `/log-outcome` | Capture result and learnings from an application |
+
 ## Requirements
 
 - [Claude Code](https://claude.com/claude-code) and Node.js v18+

@@ -115,6 +115,16 @@ personal-os organizes tasks across 12+ areas of life:
 | **P2** | Scheduled | Has a date |
 | **P3** | Someday/maybe | No rush |
 
+## Quick Commands
+
+| Command | What it does |
+|---------|-------------|
+| `/setup` | Set up your personal-os workspace (~5 min) |
+| `/plan-day` | Plan your day across all life areas |
+| `/process-inbox` | Turn brain dumps into organized, goal-linked tasks |
+| `/weekly-review` | Reflect on your week across all life areas |
+| `/add-task [description]` | Quickly capture a task |
+
 ## Requirements
 
 - [Claude Code](https://claude.com/claude-code) and Node.js v18+
