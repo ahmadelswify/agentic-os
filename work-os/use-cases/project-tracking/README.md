@@ -228,7 +228,7 @@ Establish ongoing forum for strategic customers to influence product direction a
 
 ---
 
-**Project Owner:** Ahmad Al Swify
+**Project Owner:** Ahmad Elswify
 **Last Updated:** 2026-01-18
 ```
 
