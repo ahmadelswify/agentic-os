@@ -22,8 +22,8 @@ By the end of this guide:
 1. Fork this repository
 2. Clone to your local machine:
 ```bash
-git clone https://github.com/ahmadelswify/work-os-public.git
-cd work-os-public
+git clone https://github.com/ahmadelswify/agentic-os/work-os.git
+cd agentic-os/work-os
 ```
 
 ### Option B: Download
@@ -36,7 +36,7 @@ cd work-os-public
 Navigate to your work-os directory and start Claude Code:
 
 ```bash
-cd work-os-public
+cd agentic-os/work-os
 claude
 ```
 

@@ -65,12 +65,12 @@ Claude Code will prompt you to authenticate when you first run it.
                                     ↓
 ┌─────────────────────────────────────────────────────────────────────────┐
 │  STEP 2: Clone work-os Repository                                      │
-│  git clone https://github.com/ahmadelswify/work-os-public.git          │
+│  git clone https://github.com/ahmadelswify/agentic-os/work-os.git          │
 └─────────────────────────────────────────────────────────────────────────┘
                                     ↓
 ┌─────────────────────────────────────────────────────────────────────────┐
 │  STEP 3: Navigate Into Repository                                      │
-│  cd work-os-public                                                     │
+│  cd agentic-os/work-os                                                     │
 │  ls  (see the structure)                                               │
 └─────────────────────────────────────────────────────────────────────────┘
                                     ↓
@@ -113,17 +113,17 @@ You should see version information displayed.
 ### Step 2: Clone the work-os Repository
 
 ```bash
-git clone https://github.com/ahmadelswify/work-os-public.git
+git clone https://github.com/ahmadelswify/agentic-os/work-os.git
 ```
 
 **What this does**: Downloads the work-os template to your computer.
 
-**Where it goes**: Creates a folder called `work-os-public` in your current directory.
+**Where it goes**: Creates a folder called `agentic-os/work-os` in your current directory.
 
 **Pro tip**: Clone it somewhere you can easily access, like:
 ```bash
 cd ~/Documents  # Navigate to Documents folder first
-git clone https://github.com/ahmadelswify/work-os-public.git
+git clone https://github.com/ahmadelswify/agentic-os/work-os.git
 ```
 
 ---
@@ -131,7 +131,7 @@ git clone https://github.com/ahmadelswify/work-os-public.git
 ### Step 3: Navigate Into the Repository
 
 ```bash
-cd work-os-public
+cd agentic-os/work-os
 ```
 
 **Verify you're in the right place:**
@@ -151,7 +151,7 @@ CLAUDE.md       docs/           use-cases/
 pwd
 ```
 
-Output should end with `/work-os-public`.
+Output should end with `/agentic-os/work-os`.
 
 ---
 
@@ -165,7 +165,7 @@ claude
 
 **What happens:**
 - Claude Code launches in your terminal
-- It automatically detects you're in the work-os-public directory
+- It automatically detects you're in the agentic-os/work-os directory
 - It reads the `CLAUDE.md` file (which points to `AGENTS.md`) for instructions
 - You'll see a prompt where you can start typing
 
@@ -200,7 +200,7 @@ Claude will:
 
 ### CLAUDE.md
 
-**Location**: `/work-os-public/CLAUDE.md`
+**Location**: `/agentic-os/work-os/CLAUDE.md`
 
 **Purpose**: Claude Code automatically looks for a `CLAUDE.md` file when it starts in a directory. This file tells Claude how to behave in this workspace.
 
@@ -215,7 +215,7 @@ Claude will:
 
 ### AGENTS.md
 
-**Location**: `/work-os-public/AGENTS.md`
+**Location**: `/agentic-os/work-os/AGENTS.md`
 
 **Purpose**: A short (~80 line) table of contents that tells the AI where to find instructions.
 
@@ -233,7 +233,7 @@ Claude will:
 
 ### GOALS.md
 
-**Location**: `/work-os-public/GOALS.md`
+**Location**: `/agentic-os/work-os/GOALS.md`
 
 **Note:** This file is created during your initial setup from `GOALS-template.md`. Claude Code will help you populate it when you say "Help me set up work-os".
 
@@ -263,7 +263,7 @@ Claude will:
 
 ### BACKLOG.md
 
-**Location**: `/work-os-public/BACKLOG.md`
+**Location**: `/agentic-os/work-os/BACKLOG.md`
 
 **Note:** This file is created during your initial setup from `BACKLOG-template.md`. Claude Code will help you create it when you say "Help me set up work-os".
 
@@ -330,7 +330,7 @@ Let's walk through a complete first session.
 ### Launch Claude Code
 
 ```bash
-cd work-os-public
+cd agentic-os/work-os
 claude
 ```
 
@@ -556,7 +556,7 @@ sudo npm install -g @anthropic-ai/claude-code
 pwd
 
 # Navigate to work-os
-cd path/to/work-os-public
+cd path/to/agentic-os/work-os
 
 # Then launch
 claude
@@ -566,7 +566,7 @@ claude
 
 ### "Cannot find AGENTS.md"
 
-**Problem**: You're not in the work-os-public directory.
+**Problem**: You're not in the agentic-os/work-os directory.
 
 **Solution**:
 ```bash
@@ -574,8 +574,8 @@ claude
 ls
 
 # You should see AGENTS.md in the list
-# If not, navigate to work-os-public:
-cd path/to/work-os-public
+# If not, navigate to agentic-os/work-os:
+cd path/to/agentic-os/work-os
 ```
 
 ---
@@ -625,7 +625,7 @@ Now that you're set up:
 
 - **Official Claude Code Docs**: [claude.com/claude-code](https://claude.com/claude-code)
 - **work-os Examples**: See [EXAMPLES.md](EXAMPLES.md) for real conversation examples
-- **GitHub Repository**: [github.com/ahmadelswify/work-os-public](https://github.com/ahmadelswify/work-os-public)
+- **GitHub Repository**: [github.com/ahmadelswify/agentic-os/work-os](https://github.com/ahmadelswify/agentic-os/work-os)
 
 ---
 

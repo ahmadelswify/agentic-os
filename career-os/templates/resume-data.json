@@ -1,0 +1,44 @@
+{
+  "profile": {
+    "name": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "linkedin": "",
+    "summary": ""
+  },
+  "experience": [
+    {
+      "company": "",
+      "roles": [
+        {
+          "title": "",
+          "start_date": "",
+          "end_date": "",
+          "bullets": []
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "technologies": [],
+      "link": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "",
+      "degree": "",
+      "field": "",
+      "graduation_date": ""
+    }
+  ],
+  "skills": {
+    "technical": [],
+    "tools": [],
+    "domains": []
+  }
+}

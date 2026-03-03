@@ -9,7 +9,7 @@ Real examples of how to use work-os with Claude Code in your terminal.
 ### First Time Setup
 
 ```bash
-$ cd work-os-public
+$ cd agentic-os/work-os
 $ claude
 ```
 
@@ -60,7 +60,7 @@ Let's capture your current work...
 ### Morning Planning
 
 ```bash
-$ cd work-os-public
+$ cd agentic-os/work-os
 $ claude
 ```
 
