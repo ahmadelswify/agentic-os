@@ -154,6 +154,21 @@ Notice what happened: you brain dumped one sentence, AI structured it into a tas
 - **[Career Portfolio](use-cases/career-portfolio)** — Accomplishment logs, project summaries, interview stories
 - **[Meeting Notes](use-cases/meeting-notes)** — Process meetings into action items and decisions
 
+## Quick Commands
+
+work-os includes slash commands for common workflows:
+
+| Command | What it does |
+|---------|-------------|
+| `/setup` | Personalize your workspace (~5 min) |
+| `/plan-day` | Morning planning: suggests 2-4 focus items |
+| `/process-backlog` | Turn brain dumps into organized tasks |
+| `/weekly-review` | Reflect on the week: wins, progress, what's next |
+| `/add-task [description]` | Quickly capture a task |
+| `/prep-meeting [name]` | Prepare for a meeting with context |
+| `/log-accomplishment [description]` | Record a win for your career tracker |
+| `/status-report [project]` | Generate a stakeholder-ready project update |
+
 ## Requirements
 
 - **[Claude Code](https://claude.com/claude-code)** — Anthropic's terminal-based AI tool
