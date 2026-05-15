@@ -197,8 +197,7 @@ A: Any professional role. See [Adapts to Any Role](#adapts-to-any-role) for spec
 
 ## Community
 
-- **[Landing Page](https://work-os.rizq.build)** — Interactive demo and setup
-- **[Discord](https://discord.gg/GKg8TGmA)** — Join builders using AI-native productivity
+- **[Landing Page](https://agentic-os.rizq.build)** — Interactive demo and setup
 - **[LinkedIn](https://www.linkedin.com/in/swify/)** — Follow for tips and updates
 - **Newsletter:** "Work Smarter with AI" on LinkedIn
 
