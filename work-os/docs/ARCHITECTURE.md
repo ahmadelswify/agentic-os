@@ -7,13 +7,13 @@ work-os is an AI-native productivity framework. This document maps how all piece
 ## System Flow
 
 ```
-INBOX.md --> [Process] --> Active/ --> [Complete] --> Archive/
+BACKLOG.md --> [Process] --> Active/ --> [Complete] --> Archive/
                  |                        |
                  v                        v
              GOALS.md <---- alignment ---> Knowledge/
 ```
 
-1. Raw thoughts land in `INBOX.md`.
+1. Raw thoughts land in `BACKLOG.md`.
 2. The agent processes them: clarifies ambiguity, assigns priority, links to goals.
 3. Actionable items become task files in `Active/`.
 4. Completed tasks move to `Archive/`. Knowledge stays evergreen.
@@ -27,7 +27,7 @@ INBOX.md --> [Process] --> Active/ --> [Complete] --> Archive/
 |------------------|---------|-----------|
 | `AGENTS.md` | Entry point for the agent (~80 lines). Table of contents that points to decomposed instructions in `docs/`. | Maintainer |
 | `GOALS.md` | User's objectives and priorities. The north star for all task creation. Every task must trace back here. | User |
-| `INBOX.md` | Raw capture point. Brain dumps, meeting notes, ideas, links. No organization required. | User |
+| `BACKLOG.md` | Raw capture point. Brain dumps, meeting notes, ideas, links. No organization required. | User |
 | `Active/` | Current task files with YAML frontmatter. One file per task. Organized by role-specific categories. | Agent |
 | `Projects/` | Multi-task initiatives. Each project gets a subdirectory with its own tasks, briefs, and context. | Agent + User |
 | `Career/` | Professional development: accomplishments log, 1:1 notes, portfolio pieces, brag doc. | Agent + User |
@@ -83,7 +83,7 @@ The agent uses progressive disclosure to stay fast and focused. Not everything i
           v (when the user asks something)
 +---------------------------------------------------------+
 | Layer 1: Situational                                    |
-| GOALS.md, INBOX.md, relevant agent-instruction file     |
+| GOALS.md, BACKLOG.md, relevant agent-instruction file   |
 +---------------------------------------------------------+
           |
           v (when working on a specific task)
@@ -102,7 +102,7 @@ The agent uses progressive disclosure to stay fast and focused. Not everything i
 | Layer | Trigger | What Gets Loaded | Typical Size |
 |-------|---------|------------------|--------------|
 | 0 | Session start | `AGENTS.md`, `golden-principles.md` | ~120 lines |
-| 1 | User prompt arrives | `GOALS.md`, `INBOX.md`, one agent-instruction file | ~200-400 lines |
+| 1 | User prompt arrives | `GOALS.md`, `BACKLOG.md`, one agent-instruction file | ~200-400 lines |
 | 2 | Working on a task | Task file, its `resource_refs`, project subdirectory | ~100-300 lines |
 | 3 | Keyword match needed | Specific `Knowledge/` files by name or search | Varies |
 

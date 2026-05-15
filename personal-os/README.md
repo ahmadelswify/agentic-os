@@ -38,20 +38,33 @@ Claude will walk you through:
 
 ```
 personal-os/
-├── CLAUDE.md                    # Points to AGENTS.md
 ├── AGENTS.md                    # Life management agent instructions
+├── CLAUDE.md                    # Delegates to AGENTS.md (Claude Code entry point)
+├── README.md                    # This file
 ├── GOALS-template.md            # Starter goals file
+├── .gitignore                   # Keeps user content (Tasks/, INBOX.md, etc.) private
+├── .claude/
+│   ├── settings.json            # Claude Code project settings
+│   ├── agents/                  # Specialized sub-agents (setup, daily-planner, etc.)
+│   ├── skills/                  # Slash command skills (/setup, /plan-day, ...)
+│   └── hooks/                   # Safety hooks (e.g. protect-templates)
+├── docs/
+│   ├── golden-principles.md     # Core principles agents must honor
+│   └── ARCHITECTURE.md          # How GOALS, Tasks, Knowledge, Projects interact
 ├── templates/
 │   ├── task-template.md         # Task with YAML frontmatter
 │   ├── knowledge-template.md    # Knowledge brief template
 │   ├── project-template.md      # Multi-task project template
-│   └── inbox-template.md        # Brain dump inbox
+│   ├── inbox-template.md        # Brain dump inbox
+│   └── user/                    # User-facing simplified templates
 └── examples/
     └── workflows/
         ├── morning-standup.md   # Daily planning workflow
         ├── weekly-review.md     # Weekly reflection workflow
         └── inbox-processing.md  # Brain dump processing workflow
 ```
+
+After `/setup` runs, you'll also have `GOALS.md`, `INBOX.md`, `Tasks/`, `Knowledge/`, `Projects/`, and `Archive/` populated for you (these are gitignored by default).
 
 ## Key Workflows
 
@@ -75,11 +88,11 @@ You: Process my inbox
 AI: Reading INBOX.md...
 
     Created 5 tasks:
-    • "Schedule dentist appointment" → admin (P1)
-    • "Research flights for July trip" → admin (P2)
-    • "Call Mom about Eid plans" → relationships (P0, time-sensitive)
-    • "Review investment portfolio" → admin (P1)
-    • "Draft goals for Q2" → personal-development (P1)
+    • "Schedule dentist appointment" → health (P1)
+    • "Research flights for July trip" → home (P2)
+    • "Call Mom about birthday plans" → relationships (P0, time-sensitive)
+    • "Review investment portfolio" → finance (P1)
+    • "Draft goals for Q2" → learning (P1)
 
     Questions:
     • "Research flights" — do you have dates in mind? That affects priority.
@@ -89,22 +102,17 @@ AI: Reading INBOX.md...
 
 ## Life Categories
 
-personal-os organizes tasks across 12+ areas of life:
+personal-os ships with 7 universal categories. Customize them during `/setup` to match your life.
 
 | Category | What It Covers |
 |---|---|
-| `job-search` | Career exploration, applications, interviews |
-| `wedding` | Wedding planning and logistics |
-| `relationships` | Family, friends, community connections |
-| `health` | Fitness, mental health, wellness |
-| `admin` | Operations, finance, logistics, documentation |
-| `learning` | Personal development, skill building |
-| `outreach` | Follow-ups, networking, introductions |
-| `personal-development` | Self-improvement, counseling, growth |
-| `community-building` | Events, forums, member recruitment |
-| `research` | Market analysis, studying models, gathering data |
-| `partnerships` | Building organizational relationships |
-| `project-development` | Strategic planning, program design |
+| `career` | Job, professional growth, work goals |
+| `relationships` | Family, friends, romantic, social |
+| `health` | Physical, mental, fitness, medical |
+| `finance` | Money, investments, taxes, budgeting |
+| `learning` | Skills, education, hobbies, courses |
+| `home` | Household, errands, admin, logistics |
+| `projects` | Personal projects and side work |
 
 ## Priority Framework
 

@@ -85,7 +85,7 @@ title: Q1 Planning Meeting
 date: 2026-01-15
 attendees:
   - Sarah Chen (Manager)
-  - Ahmad (me)
+  - [Your Name] (me)
   - John Lee (Support Lead)
   - Maya Rodriguez (Product)
 type: planning
@@ -96,7 +96,7 @@ project: q1-strategy
 
 ## Attendees
 - Sarah Chen (CS Manager)
-- Ahmad Elswify (Sr. CSM)
+- [Your Name] (Sr. CSM)
 - John Lee (Support Lead)
 - Maya Rodriguez (Product Manager)
 
@@ -110,17 +110,17 @@ project: q1-strategy
 ### Q1 Focus: NRR Growth
 - **Goal:** 10% NRR increase (from 105% to 115%)
 - **Strategy:** Focus on top 20 strategic accounts
-- **Owner:** Ahmad to identify accounts
+- **Owner:** [Your Name] to identify accounts
 - **Timeline:** List by Jan 20
 
 ### New Onboarding Pilot
 - **Decision:** Pilot new flow with 5 customers
 - **Why:** Current process too slow (4 weeks), aiming for 3 weeks
-- **Owner:** Maya (Product) + Ahmad (CS)
+- **Owner:** Maya (Product) + [Your Name] (CS)
 - **Review:** Jan 22 meeting to assess results
 
 ### Customer Advisory Board
-- **Decision:** Ahmad leading initiative
+- **Decision:** [Your Name] leading initiative
 - **Goal:** Gather strategic product feedback
 - **First meeting:** Target late January
 - **Action:** Create candidate list by Friday
@@ -130,12 +130,12 @@ project: q1-strategy
 ### NRR Strategy
 Sarah emphasized strategic account focus for Q1. Current NRR is 105%, need to reach 115% to hit company goals. Top 20 accounts represent 60% of ARR, so biggest leverage there.
 
-Ahmad suggested customer health dashboard could help identify expansion opportunities → Sarah loved this idea.
+[Your Name] suggested customer health dashboard could help identify expansion opportunities → Sarah loved this idea.
 
 ### Support Response Time Issue
 John raised concern: avg response time is 6 hours, some strategic customers complaining. Impacting renewal conversations.
 
-Discussion: Need dedicated support for strategic accounts vs. improving overall process. No decision yet - Ahmad to research options.
+Discussion: Need dedicated support for strategic accounts vs. improving overall process. No decision yet - [Your Name] to research options.
 
 ### Cross-functional Collaboration
 Maya shared Product roadmap. 3 major features launching Q1:
@@ -143,11 +143,11 @@ Maya shared Product roadmap. 3 major features launching Q1:
 - API enhancements (Feb 15)
 - Mobile app (Mar 31)
 
-CS team needs to prepare customers for changes. Ahmad suggested beta program with advisory board customers.
+CS team needs to prepare customers for changes. [Your Name] suggested beta program with advisory board customers.
 
 ## Action Items
 
-### Ahmad (me)
+### [Your Name] (me)
 - [ ] Identify top 20 strategic accounts for NRR focus (by Jan 20)
 - [ ] Create customer advisory board candidate list (by Jan 17 - this Friday)
 - [ ] Research support response time solutions for strategic accounts (by Jan 22)

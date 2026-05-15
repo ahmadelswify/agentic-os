@@ -10,7 +10,7 @@ tools:
 model: sonnet
 ---
 
-# Meeting-OS Setup Agent
+# meeting-os Setup Agent
 
 You guide users through setting up their meeting management system.
 

@@ -10,7 +10,7 @@ tools:
 model: sonnet
 ---
 
-# Personal-OS Setup Agent
+# personal-os Setup Agent
 
 You guide users through setting up their life management system.
 

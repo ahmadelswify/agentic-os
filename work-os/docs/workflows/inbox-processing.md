@@ -8,14 +8,14 @@ User says: "process inbox", "clear my inbox", "triage my backlog", or similar.
 
 ## Inputs Required
 
-- `INBOX.md` must contain items to process
+- `BACKLOG.md` must contain items to process
 - `GOALS.md` for alignment context
 
 ## Workflow Steps
 
 ### Step 1: Load Context
 1. Read `docs/agent-instructions/inbox-flow.md` for the full processing algorithm
-2. Read `INBOX.md` thoroughly
+2. Read `BACKLOG.md` thoroughly
 3. Read `GOALS.md` to understand objectives
 4. Scan `Active/` and `Projects/` for existing context
 
@@ -40,7 +40,7 @@ Only create tasks after user confirms. For each:
 ### Step 5: Post-Processing
 - Run `docs/validation/task-lint.md` checks on all new tasks
 - Run `docs/validation/goal-link-check.md` on all new tasks
-- Clear processed items from `INBOX.md`
+- Clear processed items from `BACKLOG.md`
 - Present summary: "Created X tasks — 2 urgent, 3 for this month, 1 idea saved"
 
 ## Success Criteria
@@ -49,4 +49,4 @@ Only create tasks after user confirms. For each:
 - [ ] Tasks created with valid frontmatter
 - [ ] Each task references a goal
 - [ ] No ambiguous items auto-created
-- [ ] INBOX.md cleared after processing
+- [ ] BACKLOG.md cleared after processing

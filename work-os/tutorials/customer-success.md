@@ -17,7 +17,7 @@ work-os helps you stay organized without the overhead of complex tools.
 ### 1. Define Your Goals
 Create `GOALS.md`:
 ```markdown
-# Q1 2026 Goals
+# Quarterly Goals
 
 ## Primary
 - **NRR:** 110% (current: 105%)
@@ -102,17 +102,17 @@ Claude: Created 3 tasks:
 ```
 You: "Show me all renewals this quarter"
 
-Claude: Q1 2026 Renewals:
+Claude: This Quarter's Renewals:
 
-January:
+Month 1:
 - Customer A ($500K) - ✅ Renewed 2 years
 - Customer B ($200K) - 🔄 In progress, meeting scheduled
 
-February:
+Month 2:
 - Customer C ($300K) - 📅 Upcoming, need to schedule
 - Customer D ($150K) - ⚠️ At risk, low usage
 
-March:
+Month 3:
 - Customer E ($400K) - 📅 Upcoming
 ```
 
@@ -311,7 +311,7 @@ Ready to discuss in your next 1:1?
 ```
 You: "Show me my CS metrics"
 
-Claude: Your CS Performance (Q1 2026 YTD):
+Claude: Your CS Performance (This Quarter YTD):
 
 📊 Core Metrics:
 - NRR: 112% (goal: 110%) ✅

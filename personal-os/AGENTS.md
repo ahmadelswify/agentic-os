@@ -53,20 +53,17 @@ Tie to goals from GOALS.md and reference material.
 
 ### Categories
 
+These are the default categories. **Users should customize this list during `/setup`** to match their own life — add, remove, or rename as needed.
+
 | Category | What It Covers |
 |---|---|
-| `job-search` | Career exploration, applications, interviews, networking |
-| `wedding` | Wedding planning and logistics |
-| `relationships` | Family, friends, community connections |
-| `health` | Fitness, mental health, wellness |
-| `admin` | Operations, finance, logistics, documentation |
-| `learning` | Personal development, skill building, courses |
-| `outreach` | Follow-ups, meetings, relationship cultivation |
-| `personal-development` | Self-improvement, counseling, growth |
-| `community-building` | Events, forums, engagement, member recruitment |
-| `research` | Market analysis, studying models, gathering data |
-| `partnerships` | Building relationships with organizations |
-| `project-development` | Strategic planning, financial modeling, program design |
+| `career` | Job, professional growth, work goals |
+| `relationships` | Family, friends, romantic, social |
+| `health` | Physical, mental, fitness, medical |
+| `finance` | Money, investments, taxes, budgeting |
+| `learning` | Skills, education, hobbies, courses |
+| `home` | Household, errands, admin, logistics |
+| `projects` | Personal projects and side work |
 
 ### Priority Framework
 

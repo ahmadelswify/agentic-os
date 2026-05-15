@@ -89,18 +89,18 @@ Career/
 ```markdown
 # Accomplishments Log
 
-## 2026
+## [Current Year]
 
-### Q1 2026
+### [Current Quarter]
 
 ### Customer Success
-- **Customer X Renewal** (2026-01-15)
+- **Customer X Renewal** ([YYYY-MM-DD])
   - Saved at-risk customer, closed 2-year $500K deal
   - Customer was evaluating competitor, built business case showing our ROI
   - Skills: Negotiation, strategic account management, business value analysis
   - Feedback: VP said "this is the kind of strategic thinking we need"
 
-- **Customer Health Dashboard Launch** (2026-01-08)
+- **Customer Health Dashboard Launch** ([YYYY-MM-DD])
   - Built SQL dashboard tracking health scores for 200+ accounts
   - Impact: Team identified 15 at-risk customers in first week
   - Early results: 15% reduction in churn
@@ -113,30 +113,30 @@ Career/
   - Both improved renewal rates by 10%+
   - Created reusable frameworks for customer QBRs
 
-- **Customer Advisory Board** (2026-01-20)
+- **Customer Advisory Board** ([YYYY-MM-DD])
   - Led first customer advisory board meeting with 10 strategic customers
   - Gathered product feedback → 3 features now on roadmap
   - Feedback from Product VP: "invaluable insights"
 
 ### Skills & Learning
-- **SQL Proficiency** (2026-01-10)
+- **SQL Proficiency** ([YYYY-MM-DD])
   - Completed advanced SQL course, can now write complex queries independently
   - Built 3 dashboards used by entire CS team daily
   - Trained 5 team members on SQL basics
 
 ---
 
-## 2025
+## [Previous Year]
 
-### Q4 2025
+### [Previous Quarter]
 
 #### Revenue & Retention
-- **Q4 NRR: 108%** (vs 105% goal)
+- **Quarterly NRR: 108%** (vs 105% goal)
 - **$2.1M in renewals** closed (12 accounts)
 - **Zero logo churn** for strategic accounts
 
 #### Process Improvements
-- **New Onboarding Flow** (2025-12-18)
+- **New Onboarding Flow** ([YYYY-MM-DD])
   - Redesigned customer onboarding process
   - Impact: 20% time reduction (4 weeks → 3.2 weeks)
   - Higher customer satisfaction: NPS +12 points
@@ -144,7 +144,7 @@ Career/
 
 ---
 
-### Career Highlights 2025
+### Career Highlights [Previous Year]
 
 **Total ARR Impact:** $5.3M retained/expanded
 **Churn Reduction:** 15% via dashboard and proactive outreach

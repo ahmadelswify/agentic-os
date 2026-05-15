@@ -64,13 +64,13 @@ Claude Code will prompt you to authenticate when you first run it.
 └─────────────────────────────────────────────────────────────────────────┘
                                     ↓
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  STEP 2: Clone work-os Repository                                      │
-│  git clone https://github.com/ahmadelswify/agentic-os/work-os.git          │
+│  STEP 2: Clone agentic-os Repository                                   │
+│  git clone https://github.com/ahmadelswify/agentic-os.git              │
 └─────────────────────────────────────────────────────────────────────────┘
                                     ↓
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  STEP 3: Navigate Into Repository                                      │
-│  cd agentic-os/work-os                                                     │
+│  STEP 3: Navigate Into work-os Directory                               │
+│  cd agentic-os/work-os                                                 │
 │  ls  (see the structure)                                               │
 └─────────────────────────────────────────────────────────────────────────┘
                                     ↓
@@ -110,20 +110,22 @@ You should see version information displayed.
 
 ---
 
-### Step 2: Clone the work-os Repository
+### Step 2: Clone the agentic-os Repository
 
 ```bash
-git clone https://github.com/ahmadelswify/agentic-os/work-os.git
+git clone https://github.com/ahmadelswify/agentic-os.git
+cd agentic-os/work-os
 ```
 
-**What this does**: Downloads the work-os template to your computer.
+**What this does**: Downloads the full agentic-os repository (which contains work-os and the other sub-OS projects) to your computer, then drops you into the `work-os` directory.
 
-**Where it goes**: Creates a folder called `agentic-os/work-os` in your current directory.
+**Where it goes**: Creates a folder called `agentic-os` in your current directory; `work-os` lives at `agentic-os/work-os`.
 
 **Pro tip**: Clone it somewhere you can easily access, like:
 ```bash
 cd ~/Documents  # Navigate to Documents folder first
-git clone https://github.com/ahmadelswify/agentic-os/work-os.git
+git clone https://github.com/ahmadelswify/agentic-os.git
+cd agentic-os/work-os
 ```
 
 ---
@@ -625,7 +627,7 @@ Now that you're set up:
 
 - **Official Claude Code Docs**: [claude.com/claude-code](https://claude.com/claude-code)
 - **work-os Examples**: See [EXAMPLES.md](EXAMPLES.md) for real conversation examples
-- **GitHub Repository**: [github.com/ahmadelswify/agentic-os/work-os](https://github.com/ahmadelswify/agentic-os/work-os)
+- **GitHub Repository**: [github.com/ahmadelswify/agentic-os/tree/main/work-os](https://github.com/ahmadelswify/agentic-os/tree/main/work-os)
 
 ---
 

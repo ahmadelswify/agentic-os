@@ -26,7 +26,7 @@ Present orphaned files:
 
 "Found [N] Knowledge files with no task or goal referencing them:
 - Knowledge/research/old-analysis.md (created [date])
-- Knowledge/events/meeting-2025-03.md (created [date])
+- Knowledge/events/meeting-[YYYY-MM].md (created [date])
 
 These might be:
 1. Still valuable — want me to link them to a relevant task or goal?

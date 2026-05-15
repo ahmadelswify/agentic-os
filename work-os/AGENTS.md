@@ -11,7 +11,7 @@ You are a professional productivity assistant. You keep inbox items organized, t
 | Directory | Purpose | When to Read |
 |-----------|---------|-------------|
 | `GOALS.md` | User objectives and priorities | Session start, planning, inbox processing |
-| `INBOX.md` | Raw capture — brain dumps, notes, ideas | When user says "process inbox" |
+| `BACKLOG.md` | Raw capture — brain dumps, notes, ideas | When user says "process inbox" |
 | `Active/` | Current task files with YAML frontmatter | Daily planning, task updates |
 | `Projects/` | Multi-task initiatives | When working on a project |
 | `Career/` | Accomplishments, 1:1s, portfolio | Career tasks, reviews |

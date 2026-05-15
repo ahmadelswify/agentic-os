@@ -265,7 +265,7 @@ This triggers contract review provisions. Want me to draft the formal notice?
 ```
 You: "Show me all vendor performance this quarter"
 
-Claude: Q1 2026 Vendor Scorecard:
+Claude: This Quarter's Vendor Scorecard:
 
 Top Performers:
 - Vendor A: 98% SLA compliance, no issues

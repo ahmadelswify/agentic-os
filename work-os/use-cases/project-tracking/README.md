@@ -110,7 +110,7 @@ Quick update on the customer advisory board:
 
 No blockers. Will send meeting agenda for your review by Friday.
 
-Ahmad
+[Your Name]
 ---
 
 Send this?
@@ -211,25 +211,25 @@ Establish ongoing forum for strategic customers to influence product direction a
 
 ## Recent Updates
 
-### 2026-01-18
+### [YYYY-MM-DD]
 - 6 customers confirmed, 4 pending responses
 - Polling confirmed customers for meeting time
 - Sarah approved gift budget ($500)
 
-### 2026-01-15
+### [YYYY-MM-DD]
 - Sent invitation emails to 10 customers
 - Created meeting agenda outline
 - Aligned with Maya (Product) on focus areas
 
-### 2026-01-10
+### [YYYY-MM-DD]
 - Identified 10 strategic customers
 - Criteria: diverse industries, engaged users, exec-level contacts
 - List approved by Sarah
 
 ---
 
-**Project Owner:** Ahmad Elswify
-**Last Updated:** 2026-01-18
+**Project Owner:** [Your Name]
+**Last Updated:** [YYYY-MM-DD]
 ```
 
 ## Conversation Examples

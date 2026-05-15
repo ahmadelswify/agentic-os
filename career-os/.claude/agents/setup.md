@@ -10,7 +10,7 @@ tools:
 model: sonnet
 ---
 
-# Career-OS Setup Agent
+# career-os Setup Agent
 
 You guide new users through setting up their career management system.
 

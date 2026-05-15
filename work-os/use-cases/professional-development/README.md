@@ -22,7 +22,7 @@ You: "I want to get better at data analysis this quarter"
 
 AI: Created professional development goal:
 - Skill: Data analysis
-- Timeline: Q1 2026
+- Timeline: [this quarter]
 - Added to Career/professional-development/goals.md
 
 Suggested next steps:
@@ -78,9 +78,9 @@ Career/professional-development/
 ## Active Skills (Building Now)
 
 ### Data Analysis & Visualization
-**Started:** 2026-01-05
+**Started:** [YYYY-MM-DD]
 **Goal:** Become proficient in SQL and dashboard creation
-**Timeline:** Q1 2026
+**Timeline:** [this quarter]
 
 Progress:
 - ✅ Completed: SQL fundamentals course (Datacamp)
@@ -96,7 +96,7 @@ Evidence:
 ---
 
 ### Strategic Communication
-**Started:** 2025-11-01
+**Started:** [YYYY-MM-DD]
 **Goal:** Improve executive stakeholder communication
 **Timeline:** Ongoing
 
@@ -147,16 +147,16 @@ Evidence:
 ```markdown
 # Professional Development Goals
 
-## Q1 2026
+## [This Quarter]
 
 ### Primary Goal: Data Fluency
 **Why:** Need stronger analytical skills for strategic CSM role
 
 Milestones:
-- ✅ Complete SQL fundamentals (done 2026-01-10)
+- ✅ Complete SQL fundamentals (done [YYYY-MM-DD])
 - 🔄 Build customer health dashboard (in progress)
-- 📅 Present data insights to leadership (planned Feb)
-- 📅 Mentor team member on SQL (planned Mar)
+- 📅 Present data insights to leadership (planned next month)
+- 📅 Mentor team member on SQL (planned later this quarter)
 
 Success metrics:
 - Can write complex SQL queries independently
@@ -169,9 +169,9 @@ Success metrics:
 **Why:** Preparing for promotion to Senior CSM (requires C-suite interaction)
 
 Milestones:
-- ✅ Completed executive communication workshop (done 2025-12-15)
+- ✅ Completed executive communication workshop (done [YYYY-MM-DD])
 - 🔄 Monthly exec reports to VP (ongoing)
-- 📅 Present at board meeting (planned Q1)
+- 📅 Present at board meeting (planned [this quarter])
 
 Success metrics:
 - Comfortable presenting to C-suite

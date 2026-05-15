@@ -1,6 +1,7 @@
+<!-- Default categories below. Users should customize this list during `/setup` to match their own life. -->
 ---
 title: [Actionable task name]
-category: [job-search|wedding|relationships|health|admin|learning|outreach|personal-development|community-building|research|partnerships|project-development]
+category: [career|relationships|health|finance|learning|home|projects]
 priority: [P0|P1|P2|P3]
 status: n
 created_date: YYYY-MM-DD

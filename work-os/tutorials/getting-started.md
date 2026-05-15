@@ -22,7 +22,7 @@ By the end of this guide:
 1. Fork this repository
 2. Clone to your local machine:
 ```bash
-git clone https://github.com/ahmadelswify/agentic-os/work-os.git
+git clone https://github.com/ahmadelswify/agentic-os.git
 cd agentic-os/work-os
 ```
 
@@ -47,7 +47,7 @@ Claude Code will automatically detect the `CLAUDE.md` file and load the work-os 
 Open `GOALS.md` and define your work objectives:
 
 ```markdown
-# 2026 Q1 Goals
+# Quarterly Goals
 
 ## Professional Goals
 - [Your main objective for this quarter]
@@ -67,7 +67,7 @@ Open `GOALS.md` and define your work objectives:
 
 ### Example for Customer Success Manager:
 ```markdown
-# 2026 Q1 Goals
+# Quarterly Goals
 
 ## Professional Goals
 - Achieve 110% NRR across my account portfolio
@@ -87,7 +87,7 @@ Open `GOALS.md` and define your work objectives:
 
 ### Example for Marketing Professional:
 ```markdown
-# 2026 Q1 Goals
+# Quarterly Goals
 
 ## Professional Goals
 - Generate 500 MQLs for sales pipeline

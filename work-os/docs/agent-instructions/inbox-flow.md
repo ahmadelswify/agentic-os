@@ -9,7 +9,7 @@ User says: "process inbox", "clear my inbox", "triage", "process backlog", or si
 ## Process
 
 ### Step 1: Read Context
-1. Read `INBOX.md` thoroughly
+1. Read `BACKLOG.md` thoroughly
 2. Read `GOALS.md` to understand objectives
 3. Scan `Active/` and `Projects/` for existing work context
 
@@ -43,7 +43,7 @@ Present results conversationally:
 Group by: Ready to create, Needs clarification, Potential duplicates.
 
 ### Step 7: Clear Inbox
-After confirmation, clear processed items from `INBOX.md`.
+After confirmation, clear processed items from `BACKLOG.md`.
 
 ## Post-Processing
 After creating tasks, run validation checks:

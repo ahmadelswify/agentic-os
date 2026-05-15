@@ -24,6 +24,21 @@ You talk. It organizes. You keep working.
 
 Each OS works independently. Pick one, pick all four, or mix and match.
 
+## What It Looks Like
+
+Instead of clicking through forms, you talk:
+
+```
+You:    I have a 1:1 with my manager tomorrow. What should I bring up?
+Claude: Looking at your last 1:1 notes and this week's activity...
+        - Two open commitments from last week still in progress
+        - One unblocker request you flagged on Tuesday
+        - Promotion conversation you wanted to revisit this month
+        Want me to draft a one-pager?
+```
+
+Behind the scenes, the AI is reading your markdown files, finding the relevant context, and surfacing it on demand. No app to open. No fields to fill. Just conversation.
+
 ## Philosophy
 
 - **Local-first.** Everything is markdown files on your machine. Back up to GitHub if you want, but nothing leaves your computer by default.

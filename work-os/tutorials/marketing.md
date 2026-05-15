@@ -18,7 +18,7 @@ work-os helps you stay organized in a fast-paced, multi-channel environment.
 ### 1. Define Your Goals
 Create `GOALS.md`:
 ```markdown
-# Q1 2026 Goals
+# Quarterly Goals
 
 ## Primary
 - **Pipeline:** Generate 500 MQLs

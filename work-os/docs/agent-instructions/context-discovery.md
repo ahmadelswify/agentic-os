@@ -21,7 +21,7 @@ Read these when the user's message matches a trigger:
 | Trigger | Load |
 |---------|------|
 | Any prioritization or planning | `GOALS.md` |
-| "process inbox" or similar | `INBOX.md` + `docs/agent-instructions/inbox-flow.md` |
+| "process inbox" or similar | `BACKLOG.md` + `docs/agent-instructions/inbox-flow.md` |
 | "what should I work on" | `GOALS.md` + scan `Active/` for task files |
 | "weekly review" | `GOALS.md` + all `Active/` tasks |
 | Content or writing request | `docs/workflows/INDEX.md` → matched workflow file |

@@ -33,6 +33,15 @@ Claude will walk you through:
 2. Connecting with Granola (optional, for automatic transcription)
 3. Creating your first meeting note
 
+## Features
+
+- **Meeting prep**: Pulls history, open commitments, and overdue items for every attendee before you walk in.
+- **Decision tracking**: Captures decisions with owners, deadlines, and context — and links them back to the meeting where they were made.
+- **Action item extraction**: Pulls action items out of notes or transcripts with owners and due dates.
+- **People index**: Builds a per-person record of meetings, topics, and open commitments over time.
+- **Granola integration**: Optional pull-in of automatic transcripts and meeting search.
+- **Searchable history**: Find decisions and discussions by person, project, or date.
+
 ## What's Inside
 
 ```
@@ -134,4 +143,4 @@ See [docs/granola-integration.md](docs/granola-integration.md) for setup instruc
 
 ## License
 
-MIT
+[MIT](../LICENSE)

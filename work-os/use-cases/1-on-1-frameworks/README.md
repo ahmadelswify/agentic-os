@@ -83,50 +83,50 @@ started: 2024-06-01
 
 # 1:1 with Sarah Chen
 
-## Current Focus Areas (2026 Q1)
-- Q1 2026 Goal: Increase NRR by 10%
+## Current Focus Areas (This Quarter)
+- Quarterly Goal: Increase NRR by 10%
 - Leading customer advisory board initiative
-- Promotion track: targeting Senior CSM by Q3 2026
+- Promotion track: targeting Senior CSM later this year
 
 ## Ongoing Threads
 
 ### Career Development
-- 2026-01-15: Discussed promotion criteria - need to demonstrate:
+- [YYYY-MM-DD]: Discussed promotion criteria - need to demonstrate:
   * Strategic customer initiatives (advisory board counts)
   * Cross-functional leadership
   * Mentoring junior CSMs
-- 2025-12-10: Training budget approved ($2K/year)
+- [YYYY-MM-DD]: Training budget approved ($2K/year)
 
-### Q1 2026 Goals & Projects
-- 2026-01-15: NRR goal set at 10% increase
-- 2025-12-18: Taking lead on customer advisory board
-- 2025-12-05: Focus on strategic accounts this quarter
+### Quarterly Goals & Projects
+- [YYYY-MM-DD]: NRR goal set at 10% increase
+- [YYYY-MM-DD]: Taking lead on customer advisory board
+- [YYYY-MM-DD]: Focus on strategic accounts this quarter
 
 ### Team & Process
-- 2026-01-08: New onboarding flow feedback - very positive
-- 2025-11-20: Suggested improvements to renewal process
+- [YYYY-MM-DD]: New onboarding flow feedback - very positive
+- [YYYY-MM-DD]: Suggested improvements to renewal process
 
 ## Action Items
 
 ### My Actions
-- [ ] Research customer advisory board best practices (by 2026-01-22)
-- [ ] Find 3 courses for training budget (by 2026-01-22)
-- [x] Implement new onboarding flow (completed 2026-01-08)
-- [x] Draft Q1 account plan (completed 2025-12-20)
+- [ ] Research customer advisory board best practices (by [Date])
+- [ ] Find 3 courses for training budget (by [Date])
+- [x] Implement new onboarding flow (completed [Date])
+- [x] Draft quarterly account plan (completed [Date])
 
 ### Sarah's Actions
 - [ ] Review promotion packet requirements
-- [x] Approve training budget (completed 2026-01-15)
+- [x] Approve training budget (completed [Date])
 
 ## Recent Accomplishments Shared
-- 2026-01-15: Customer X renewal - 2 years, $500K ARR
-- 2026-01-08: New onboarding flow launched (20% time reduction)
-- 2025-12-18: Q4 NRR: 108% (exceeded goal)
+- [YYYY-MM-DD]: Customer X renewal - 2 years, $500K ARR
+- [YYYY-MM-DD]: New onboarding flow launched (20% time reduction)
+- [YYYY-MM-DD]: Last quarter NRR: 108% (exceeded goal)
 
 ## Meeting History
-- 2026-01-15: Career path, advisory board kickoff
-- 2026-01-08: Year planning, onboarding retrospective
-- 2025-12-18: Q4 review, Q1 planning
+- [YYYY-MM-DD]: Career path, advisory board kickoff
+- [YYYY-MM-DD]: Year planning, onboarding retrospective
+- [YYYY-MM-DD]: Quarterly review and planning
 ```
 
 ## Conversation Examples

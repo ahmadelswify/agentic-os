@@ -26,6 +26,7 @@ Thanks for your interest in contributing.
 
 ## Style
 
-- This is a markdown-only system. No code.
+- Primarily a markdown-based system. Shell hooks (`.claude/hooks/*.sh`) and JSON schemas are the only non-markdown.
 - Follow existing patterns in the OS you're contributing to.
 - Read CLAUDE.md and AGENTS.md before making changes.
+- Don't commit your own user content. The `.gitignore` excludes `Active/`, `Tasks/`, `BACKLOG.md`, `GOALS.md`, `.health/`, etc. — confirm `git status` before committing.

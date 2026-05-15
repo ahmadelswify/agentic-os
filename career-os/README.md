@@ -121,4 +121,4 @@ Impact Library → Tailored Resume → Interview → Outcome
 
 ## License
 
-MIT
+[MIT](../LICENSE)
