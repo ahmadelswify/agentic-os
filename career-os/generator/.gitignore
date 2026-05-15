@@ -1,0 +1,3 @@
+node_modules/
+*.pdf
+.DS_Store

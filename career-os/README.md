@@ -40,6 +40,12 @@ Claude will walk you through:
 career-os/
 ├── CLAUDE.md                     # Points to AGENTS.md
 ├── AGENTS.md                     # Full career agent instructions
+├── Impact-Library/               # Your achievements (filled in as you go)
+├── Stories/                      # Your STAR stories
+├── Applications/                 # One folder per company you apply to
+├── Companies/                    # Persistent company research and target list
+├── Learnings/                    # Communication rules, interviewer types, metrics
+├── Resumes/                      # Resume JSON files and generated PDFs
 ├── docs/
 │   ├── how-it-works.md           # End-to-end flywheel explanation
 │   ├── domain-translation.md     # How to translate experience across industries
@@ -49,14 +55,33 @@ career-os/
 │   ├── impact-library.md         # Achievement documentation template
 │   ├── jd-analysis.md            # Job description parsing template
 │   ├── application-tracker.md    # Track applications and outcomes
+│   ├── company-research.md       # Persistent per-company research template
+│   ├── target-companies.md       # Curated career boards to scan weekly
 │   ├── star-story.md             # Reusable STAR story template
 │   ├── interview-prep.md         # Pre-interview checklist
 │   └── outcome-log.md            # Post-interview capture template
-└── examples/
-    └── workflows/
-        ├── resume-tailoring.md   # Step-by-step resume tailoring workflow
-        └── interview-prep.md     # Interview preparation workflow
+├── examples/
+│   └── workflows/
+│       ├── resume-tailoring.md   # Step-by-step resume tailoring workflow
+│       ├── interview-prep.md     # Interview preparation workflow
+│       └── job-search.md         # Weekly board scan + go/no-go filter
+└── generator/                    # Optional Node.js PDF generator
+    ├── generate-pdf.js
+    ├── package.json
+    └── public/fonts/             # Bundled Roboto (Apache 2.0)
 ```
+
+## Configurable by Default
+
+The structure, schemas, templates, and tools above are starting points, not constraints. Ask Claude to:
+
+- Remove the summary from your resume, or move education to the top
+- Add fields to a template (e.g., a "salary range" column in the tracker)
+- Rename `Applications/` to `applications/` if you prefer lowercase
+- Swap the bundled Roboto font for Lora, Merriweather, or anything else
+- Skip a section you don't use, or add one this template doesn't have
+
+The whole workspace is meant to be edited.
 
 ## Key Workflows
 

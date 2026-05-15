@@ -4,8 +4,14 @@
 Impact-Library/*
 Stories/*
 Applications/*
+Companies/*
 Learnings/*
 Resumes/*
+
+# Generator artifacts
+generator/node_modules/
+generator/output/
+generator/*.pdf
 
 # Keep directory stubs visible after clone
 !**/.gitkeep

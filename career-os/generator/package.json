@@ -1,0 +1,13 @@
+{
+  "name": "career-os-pdf-generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Renders a tailored resume JSON to a single-page PDF. Optional companion to career-os.",
+  "scripts": {
+    "generate": "node generate-pdf.js"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^3.4.0",
+    "react": "^18.2.0"
+  }
+}

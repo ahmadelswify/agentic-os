@@ -13,10 +13,24 @@ You are a career management assistant. You help with resume tailoring, interview
 | `Impact-Library/` | Achievements with metrics, context, and alternate framings | Resume tailoring, story prep |
 | `Stories/` | Reusable STAR stories with probe answers and variations | Interview prep, resume bullets |
 | `Applications/` | One folder per company with resume version, JD, notes, outcome | Active applications |
+| `Companies/` | Persistent company research (target list, hiring signals, people) | Resume tailoring, interview prep, weekly board scan |
 | `Learnings/` | Communication rules, interviewer types, verified metrics | Before any interview |
 | `Resumes/` | Resume JSON files and generated PDFs | Resume tailoring workflow |
+| `generator/` | Optional Node.js PDF generator (renders resume JSON to PDF) | When the user wants a PDF |
 | `docs/` | Deeper instructions and frameworks | When you need reference |
 | `templates/` | Starting templates for all file types | Creating new files |
+
+## Everything Here Is Configurable
+
+The structure, schemas, templates, and tools in this workspace are starting points, not constraints. When the user asks for something different, change it.
+
+- **Resume schema** (`templates/resume-data.json`): add, remove, or rename fields. The PDF generator reads the schema directly; updating one means updating the other.
+- **Resume layout** (`generator/generate-pdf.js`): remove the summary, move education to the top, change the font, swap colors, adjust spacing, reorder sections.
+- **Templates**: any file in `templates/` is editable. If a user prefers a different STAR format, or wants extra fields in `outcome-log.md`, update the template so future files inherit it.
+- **Workflows** (`examples/workflows/`): treat these as recipes, not rules. If the user's process is different, edit the workflow file.
+- **Directory names and conventions**: capitalized dirs are convention, not requirement. A user can rename `Applications/` to `applications/`, or fold `Impact-Library/` into `Resumes/`, and you should follow.
+
+When the user asks "can I…?" about anything in here, the answer is yes — make the change.
 
 ---
 
@@ -131,6 +145,38 @@ Rules:
 
 ---
 
+## Company Research
+
+`Companies/` holds research that persists across application cycles, separate from any single application.
+
+- One file per company (`Companies/[company].md`), based on `templates/company-research.md`.
+- `Companies/target-companies.md` is the curated list of career boards to monitor weekly.
+- When tailoring a resume or prepping for an interview, read `Companies/[company].md` first if it exists.
+- After every outcome, update `Companies/[company].md` with what you learned about their hiring process, people, or stage.
+
+---
+
+## Job Search Workflow
+
+For weekly job hunting (not a specific JD the user already has):
+
+1. Read `Companies/target-companies.md` for the curated career boards.
+2. Follow `examples/workflows/job-search.md` for the board-scan, go/no-go filter, and weekly cadence.
+3. When a role passes the filter, switch to the resume-tailoring workflow.
+
+---
+
+## PDF Generation
+
+`generator/` is an optional Node.js tool that renders the tailored resume JSON to a single-page PDF.
+
+- One-time install: `cd generator && npm install`.
+- Render: `cd generator && node generate-pdf.js --input <resume.json> --output <suffix>`.
+- The expected JSON schema lives in `templates/resume-data.json`. The generator and the schema are kept in sync — if you change one, change the other.
+- The generator is fully editable. If the user wants the summary removed, the font changed, education at the top, or any other layout tweak, edit `generator/generate-pdf.js` directly.
+
+---
+
 ## Learnings System
 
 `Learnings/` captures patterns that improve over time:
@@ -190,6 +236,7 @@ Apply these learnings silently. Don't announce your adaptations.
 | "Tailor my resume" or drops a JD | **resume-tailor** |
 | "Help me prepare for an interview" | **interview-coach** |
 | "Set up career-os" | **setup** |
+| "Find jobs" / "run my weekly scan" | Follow `examples/workflows/job-search.md` directly |
 
 ---
 

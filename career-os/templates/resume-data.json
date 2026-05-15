@@ -2,43 +2,35 @@
   "profile": {
     "name": "",
     "email": "",
-    "phone": "",
     "location": "",
-    "linkedin": "",
+    "url": "",
     "summary": ""
   },
-  "experience": [
+  "skills": {
+    "descriptions": []
+  },
+  "workExperiences": [
     {
       "company": "",
-      "roles": [
-        {
-          "title": "",
-          "start_date": "",
-          "end_date": "",
-          "bullets": []
-        }
-      ]
+      "jobTitle": "",
+      "date": "",
+      "descriptions": []
     }
   ],
   "projects": [
     {
-      "name": "",
-      "description": "",
-      "technologies": [],
-      "link": ""
+      "project": "",
+      "date": "",
+      "descriptions": []
     }
   ],
-  "education": [
+  "educations": [
     {
-      "institution": "",
+      "school": "",
       "degree": "",
-      "field": "",
-      "graduation_date": ""
+      "date": "",
+      "gpa": "",
+      "descriptions": []
     }
-  ],
-  "skills": {
-    "technical": [],
-    "tools": [],
-    "domains": []
-  }
+  ]
 }
